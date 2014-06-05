@@ -1,0 +1,161 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="2650B27A-957C-B410-A236-74C1401DB41B" name="PRACOWNIK">
+<createdBy>michalpiekarski</createdBy>
+<createdTime>2014-05-15 20:35:03 UTC</createdTime>
+<generatorID>C991A9A4-7F34-02CC-5180-D7D2E8FF6437</generatorID>
+<ownerDesignName>mydb</ownerDesignName>
+<engineerTo>
+<item key="CAED64DC-96A4-1A9D-3CED-DC37DC0AF476" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<preferredAbbreviation>PRACOWNICY</preferredAbbreviation>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="F85BA4D2-E2F4-F792-D55A-F1377F3B11C6">
+<createdBy>michalpiekarski</createdBy>
+<createdTime>2014-05-15 20:35:03 UTC</createdTime>
+<generatorID>E6580E11-CF36-0326-B697-2F01BBAFA9B1</generatorID>
+<ownerDesignName>mydb</ownerDesignName>
+<engineerTo>
+<item key="CAED64DC-96A4-1A9D-3CED-DC37DC0AF476" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+<Attribute name="imie" id="7939C041-DA81-5A78-58C1-0EB7F8B62ABE">
+<createdBy>michalpiekarski</createdBy>
+<createdTime>2014-05-15 20:35:03 UTC</createdTime>
+<generatorID>D704E23C-C6A0-1ADF-79A4-8476B0A13007</generatorID>
+<ownerDesignName>mydb</ownerDesignName>
+<engineerTo>
+<item key="CAED64DC-96A4-1A9D-3CED-DC37DC0AF476" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+</Attribute>
+<Attribute name="naziwsko" id="339DA51F-9EC3-40C9-0C19-1186D8DEB43A">
+<createdBy>michalpiekarski</createdBy>
+<createdTime>2014-05-15 20:35:03 UTC</createdTime>
+<generatorID>82ED82F1-7E14-C38A-9615-315440336F26</generatorID>
+<ownerDesignName>mydb</ownerDesignName>
+<engineerTo>
+<item key="CAED64DC-96A4-1A9D-3CED-DC37DC0AF476" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+</Attribute>
+<Attribute name="adres" id="4F6DBD7C-6F1B-C161-3A47-4CF67D9DB19F">
+<createdBy>michalpiekarski</createdBy>
+<createdTime>2014-05-15 20:35:03 UTC</createdTime>
+<generatorID>4C905D36-94D4-330F-A903-C4A26A262E1C</generatorID>
+<ownerDesignName>mydb</ownerDesignName>
+<engineerTo>
+<item key="CAED64DC-96A4-1A9D-3CED-DC37DC0AF476" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+</Attribute>
+<Attribute name="telefon" id="99938A11-E6DF-FBF5-0524-CD904E6BA9FE">
+<createdBy>michalpiekarski</createdBy>
+<createdTime>2014-05-15 20:35:03 UTC</createdTime>
+<generatorID>833F7950-642A-8F62-5F83-5C762EC93237</generatorID>
+<ownerDesignName>mydb</ownerDesignName>
+<engineerTo>
+<item key="CAED64DC-96A4-1A9D-3CED-DC37DC0AF476" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>12 CHAR</dataTypeSize>
+<defaultValue>NULL</defaultValue>
+</Attribute>
+<Attribute name="e-mail" id="26768014-894D-5753-6C87-1F565E52011C">
+<createdBy>michalpiekarski</createdBy>
+<createdTime>2014-05-15 20:35:03 UTC</createdTime>
+<generatorID>5DC72071-9B28-32D4-3F91-2DB1A5262A2F</generatorID>
+<ownerDesignName>mydb</ownerDesignName>
+<engineerTo>
+<item key="CAED64DC-96A4-1A9D-3CED-DC37DC0AF476" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<defaultValue>NULL</defaultValue>
+</Attribute>
+<Attribute name="osrodek" id="9AD6AD7B-4C60-01CE-4A91-2A6DC9A184A9">
+<createdBy>michalpiekarski</createdBy>
+<createdTime>2014-05-15 23:48:22 UTC</createdTime>
+<generatorID>9602B097-A5A6-AC93-8EA9-F7EC964F247C</generatorID>
+<ownerDesignName>mydb</ownerDesignName>
+<engineerTo>
+<item key="CAED64DC-96A4-1A9D-3CED-DC37DC0AF476" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>BAC1D9CD-3EAC-9E43-00F8-182DDB012E26</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+<Attribute name="stanowisko" id="0A07FABB-B48C-CDBC-C692-AEE98D228802">
+<createdBy>michalpiekarski</createdBy>
+<createdTime>2014-05-15 23:45:21 UTC</createdTime>
+<generatorID>CC676B2D-B677-C583-5E47-2E8182A73931</generatorID>
+<ownerDesignName>mydb</ownerDesignName>
+<engineerTo>
+<item key="CAED64DC-96A4-1A9D-3CED-DC37DC0AF476" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>0E79338F-8C25-1F99-049E-42CE9E6FA1E8</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25 CHAR</dataTypeSize>
+</Attribute>
+<Attribute name="placa" id="6AFC3D26-2717-E4D6-C2BC-E6FB6F8CF524">
+<createdBy>michalpiekarski</createdBy>
+<createdTime>2014-05-15 20:35:03 UTC</createdTime>
+<generatorID>846AECAE-9F59-8972-D22F-EDE82565DD17</generatorID>
+<ownerDesignName>mydb</ownerDesignName>
+<engineerTo>
+<item key="CAED64DC-96A4-1A9D-3CED-DC37DC0AF476" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="76508FEC-5752-A434-A258-211A50F3475E" name="pracownik_pk">
+<createdBy>michalpiekarski</createdBy>
+<createdTime>2014-05-15 20:35:03 UTC</createdTime>
+<generatorID>E05BD08F-3CD4-A722-DA52-462CA64D25F2</generatorID>
+<ownerDesignName>mydb</ownerDesignName>
+<engineerTo>
+<item key="CAED64DC-96A4-1A9D-3CED-DC37DC0AF476" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<newElementsIDs>F85BA4D2-E2F4-F792-D55A-F1377F3B11C6</newElementsIDs>
+<usedAttributes>
+<attributeRef>F85BA4D2-E2F4-F792-D55A-F1377F3B11C6</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

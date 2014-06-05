@@ -1,0 +1,48 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="511DA51D-D82F-AC78-59E8-A34B42EAE8C2" name="WYPOZYCZENIA">
+<createdBy>michalpiekarski</createdBy>
+<createdTime>2014-05-21 18:17:52 UTC</createdTime>
+<generatorID>C490DE6D-C505-081F-9E91-74E60B557121</generatorID>
+<ownerDesignName>mydb</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="nazwa" id="7CA43362-BD4F-26A3-35BC-A5CE8A9037BD">
+<createdBy>michalpiekarski</createdBy>
+<createdTime>2014-05-21 18:17:53 UTC</createdTime>
+<generatorID>D6537009-FCAD-3C7E-66E5-A7C15344AA82</generatorID>
+<ownerDesignName>mydb</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cena" id="C4822F32-1B6D-685D-70D1-CDD01500858C">
+<createdBy>michalpiekarski</createdBy>
+<createdTime>2014-05-21 18:17:53 UTC</createdTime>
+<generatorID>ED36746D-F12C-1E9A-3724-B4048BE5C561</generatorID>
+<ownerDesignName>mydb</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="AB61B2A6-A102-48D1-E7A1-B156D88DD351" name="WYPOZYCZENIA_PK">
+<createdBy>michalpiekarski</createdBy>
+<createdTime>2014-05-21 18:17:53 UTC</createdTime>
+<generatorID>648A2267-AEAB-9EFC-9EB0-051AFE813796</generatorID>
+<ownerDesignName>mydb</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7CA43362-BD4F-26A3-35BC-A5CE8A9037BD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

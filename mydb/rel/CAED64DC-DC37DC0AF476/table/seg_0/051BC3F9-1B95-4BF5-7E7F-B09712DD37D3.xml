@@ -1,0 +1,60 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="051BC3F9-1B95-4BF5-7E7F-B09712DD37D3" name="STANOWISKA">
+<createdBy>michalpiekarski</createdBy>
+<createdTime>2014-05-21 18:17:52 UTC</createdTime>
+<generatorID>0F0F9DBE-8EDB-809C-996A-27AA92F393C3</generatorID>
+<ownerDesignName>mydb</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="nazwa" id="5ED4B4EC-1CD7-F4E7-2065-ADEA49D692A2">
+<createdBy>michalpiekarski</createdBy>
+<createdTime>2014-05-21 18:17:52 UTC</createdTime>
+<generatorID>0E79338F-8C25-1F99-049E-42CE9E6FA1E8</generatorID>
+<ownerDesignName>mydb</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25 CHAR</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="placa_od" id="6A92D1FD-5DBB-444C-70AC-E69FC5E44D9D">
+<createdBy>michalpiekarski</createdBy>
+<createdTime>2014-05-21 18:17:52 UTC</createdTime>
+<generatorID>DB65F9DF-5E8E-7A7D-908B-FE064EC255C7</generatorID>
+<ownerDesignName>mydb</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="placa_do" id="2F7DEF3F-671B-EF41-360A-B612C39F8ED6">
+<createdBy>michalpiekarski</createdBy>
+<createdTime>2014-05-21 18:17:52 UTC</createdTime>
+<generatorID>E3E9ABD2-405C-A260-C69C-C84EEF0EB387</generatorID>
+<ownerDesignName>mydb</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4EB697B6-1A24-E49D-B553-7C981C8CD7B8" name="STANOWISKA_PK">
+<createdBy>michalpiekarski</createdBy>
+<createdTime>2014-05-21 18:17:52 UTC</createdTime>
+<generatorID>BF1672B1-8069-FF4E-7732-AEDFEAFFD598</generatorID>
+<ownerDesignName>mydb</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5ED4B4EC-1CD7-F4E7-2065-ADEA49D692A2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

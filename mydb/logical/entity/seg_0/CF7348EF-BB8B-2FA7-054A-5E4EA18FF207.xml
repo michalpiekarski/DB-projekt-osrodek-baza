@@ -1,0 +1,35 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="CF7348EF-BB8B-2FA7-054A-5E4EA18FF207" name="INNY_OBIEKT">
+<createdBy>michalpiekarski</createdBy>
+<createdTime>2014-05-21 17:56:45 UTC</createdTime>
+<ownerDesignName>mydb</ownerDesignName>
+<engineerTo>
+<item key="CAED64DC-96A4-1A9D-3CED-DC37DC0AF476" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<hierarchicalParent>7ABAEF75-9327-E6F2-ED95-7DDF5FA55CC8</hierarchicalParent>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<preferredAbbreviation>INNE_OBIEKTY</preferredAbbreviation>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="TYP_OBIEKTU_nazwa" id="0CB838E3-45E2-2C13-C625-FC2195980831">
+<createdBy>michalpiekarski</createdBy>
+<createdTime>2014-05-21 18:16:04 UTC</createdTime>
+<generatorID>C8F169FA-5AFE-CB61-3DAE-1F97711DC481</generatorID>
+<ownerDesignName>mydb</ownerDesignName>
+<engineerTo>
+<item key="CAED64DC-96A4-1A9D-3CED-DC37DC0AF476" value="true"/>
+</engineerTo>
+<referedAttribute>28CC6702-7A6B-C4D2-DC08-2E5539A7D39C</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+</Attribute>
+</attributes>
+</Entity>

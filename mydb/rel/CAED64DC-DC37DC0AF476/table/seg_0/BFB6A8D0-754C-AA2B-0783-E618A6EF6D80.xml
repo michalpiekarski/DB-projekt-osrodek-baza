@@ -1,0 +1,69 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BFB6A8D0-754C-AA2B-0783-E618A6EF6D80" name="OSRODKI">
+<createdBy>michalpiekarski</createdBy>
+<createdTime>2014-05-21 18:17:52 UTC</createdTime>
+<generatorID>D7686460-791E-61EE-A1DF-C9C6B317A233</generatorID>
+<ownerDesignName>mydb</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="4108574C-F37F-E207-96FC-ECF73EFD60BD">
+<createdBy>michalpiekarski</createdBy>
+<createdTime>2014-05-21 18:17:52 UTC</createdTime>
+<generatorID>BAC1D9CD-3EAC-9E43-00F8-182DDB012E26</generatorID>
+<ownerDesignName>mydb</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nazwa" id="45A6C6EB-7527-74C2-7E2F-8FE885A79F10">
+<createdBy>michalpiekarski</createdBy>
+<createdTime>2014-05-21 18:17:52 UTC</createdTime>
+<generatorID>5AD4D474-7238-176B-5922-1C613E892847</generatorID>
+<ownerDesignName>mydb</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="adres" id="CF9B4587-99DD-1B90-463F-1841D91AF908">
+<createdBy>michalpiekarski</createdBy>
+<createdTime>2014-05-21 18:17:52 UTC</createdTime>
+<generatorID>8CC2FE79-2256-E4AA-3DE7-6A5CA83B037A</generatorID>
+<ownerDesignName>mydb</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="otwarty" id="D1388267-A0CF-3DBE-E342-C6F8673907DF">
+<createdBy>michalpiekarski</createdBy>
+<createdTime>2014-05-21 18:17:52 UTC</createdTime>
+<comment>Czy dany ośrodek jest otwarty?</comment>
+<generatorID>29E3D598-1F69-305F-23D3-CB004D1CAB12</generatorID>
+<ownerDesignName>mydb</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<defaultValue>0 COMMENT &apos;Czy osrodek jest otwarty?&apos;</defaultValue>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="383C16EE-7D9F-79DF-BCEC-E4E8387EE3FE" name="OSRODKI_PK">
+<createdBy>michalpiekarski</createdBy>
+<createdTime>2014-05-21 18:17:52 UTC</createdTime>
+<generatorID>885E6719-2DE9-E6B6-0AF2-6167C77EDACB</generatorID>
+<ownerDesignName>mydb</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4108574C-F37F-E207-96FC-ECF73EFD60BD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

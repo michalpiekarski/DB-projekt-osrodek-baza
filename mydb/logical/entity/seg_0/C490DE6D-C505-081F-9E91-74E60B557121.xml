@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="C490DE6D-C505-081F-9E91-74E60B557121" name="WYPOZYCZENIE">
+<createdBy>michalpiekarski</createdBy>
+<createdTime>2014-05-15 20:35:03 UTC</createdTime>
+<generatorID>E499EC04-AC06-E481-0051-08DFD42EFE99</generatorID>
+<ownerDesignName>mydb</ownerDesignName>
+<engineerTo>
+<item key="5E9EF375-5151-4D28-6D49-4511775AFDC1" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<hierarchicalParent>9B3D4775-4A16-4E75-20F5-3148E5C45B62</hierarchicalParent>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<preferredAbbreviation>WYPOZYCZENIA</preferredAbbreviation>
+</Entity>

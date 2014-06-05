@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="TypUslugi" directorySegmentName="seg_0" id="047A1F02-3F69-5ED8-A192-B0A8AF2C1B1D">
+<createdBy>michalpiekarski</createdBy>
+<createdTime>2014-05-16 01:32:24 UTC</createdTime>
+<ownerDesignName>mydb</ownerDesignName>
+<engineerTo>
+<item key="5E9EF375-5151-4D28-6D49-4511775AFDC1" value="true"/>
+</engineerTo>
+<sourcePk>648A2267-AEAB-9EFC-9EB0-051AFE813796</sourcePk>
+<identifying>false</identifying>
+<nameOnSource>Przypisana do</nameOnSource>
+<nameOnTarget>Jest typu</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>7DBA348E-57CA-E7BC-C13F-FE4C342AF45A</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>8631D476-409A-1D9B-5320-FCA52D073899</targetEntity>
+<transferable>true</transferable>
+</Relation>

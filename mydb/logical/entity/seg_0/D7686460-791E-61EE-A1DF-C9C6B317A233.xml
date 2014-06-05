@@ -1,0 +1,89 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D7686460-791E-61EE-A1DF-C9C6B317A233" name="OSRODEK">
+<createdBy>michalpiekarski</createdBy>
+<createdTime>2014-05-15 20:35:03 UTC</createdTime>
+<generatorID>275A2CC5-3193-326D-2280-63597FFB4EFE</generatorID>
+<ownerDesignName>mydb</ownerDesignName>
+<engineerTo>
+<item key="CAED64DC-96A4-1A9D-3CED-DC37DC0AF476" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<preferredAbbreviation>OSRODKI</preferredAbbreviation>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="BAC1D9CD-3EAC-9E43-00F8-182DDB012E26">
+<createdBy>michalpiekarski</createdBy>
+<createdTime>2014-05-15 20:35:03 UTC</createdTime>
+<generatorID>1D1EBA12-D13C-E98D-4CD7-F2A27468408F</generatorID>
+<ownerDesignName>mydb</ownerDesignName>
+<engineerTo>
+<item key="CAED64DC-96A4-1A9D-3CED-DC37DC0AF476" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+<Attribute name="nazwa" id="5AD4D474-7238-176B-5922-1C613E892847">
+<createdBy>michalpiekarski</createdBy>
+<createdTime>2014-05-15 20:35:03 UTC</createdTime>
+<generatorID>C93525C7-9324-9838-0E95-DDB800DBD8BC</generatorID>
+<ownerDesignName>mydb</ownerDesignName>
+<engineerTo>
+<item key="CAED64DC-96A4-1A9D-3CED-DC37DC0AF476" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+</Attribute>
+<Attribute name="adres" id="8CC2FE79-2256-E4AA-3DE7-6A5CA83B037A">
+<createdBy>michalpiekarski</createdBy>
+<createdTime>2014-05-15 20:35:03 UTC</createdTime>
+<generatorID>3BBC5119-6B1C-9618-0F8E-BA1ABE9D88D3</generatorID>
+<ownerDesignName>mydb</ownerDesignName>
+<engineerTo>
+<item key="CAED64DC-96A4-1A9D-3CED-DC37DC0AF476" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+</Attribute>
+<Attribute name="otwarty" id="29E3D598-1F69-305F-23D3-CB004D1CAB12">
+<createdBy>michalpiekarski</createdBy>
+<createdTime>2014-05-15 20:35:03 UTC</createdTime>
+<comment>Czy dany ośrodek jest otwarty?</comment>
+<generatorID>463CDC07-A319-D902-EE49-E44C488CF43B</generatorID>
+<ownerDesignName>mydb</ownerDesignName>
+<engineerTo>
+<item key="CAED64DC-96A4-1A9D-3CED-DC37DC0AF476" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<defaultValue>0 COMMENT &apos;Czy osrodek jest otwarty?&apos;</defaultValue>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="885E6719-2DE9-E6B6-0AF2-6167C77EDACB" name="osrodek_pk">
+<createdBy>michalpiekarski</createdBy>
+<createdTime>2014-05-15 20:35:03 UTC</createdTime>
+<generatorID>9221C41B-C5A4-B9B9-685A-0F55AC2B68F4</generatorID>
+<ownerDesignName>mydb</ownerDesignName>
+<engineerTo>
+<item key="CAED64DC-96A4-1A9D-3CED-DC37DC0AF476" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<newElementsIDs>BAC1D9CD-3EAC-9E43-00F8-182DDB012E26</newElementsIDs>
+<usedAttributes>
+<attributeRef>BAC1D9CD-3EAC-9E43-00F8-182DDB012E26</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

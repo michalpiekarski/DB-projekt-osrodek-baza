@@ -1,0 +1,23 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="OsrodekPracownika" directorySegmentName="seg_0" id="9602B097-A5A6-AC93-8EA9-F7EC964F247C">
+<createdBy>michalpiekarski</createdBy>
+<createdTime>2014-05-15 20:35:03 UTC</createdTime>
+<generatorID>42C481CB-E0C1-5FB4-39E6-D4023E978154</generatorID>
+<ownerDesignName>mydb</ownerDesignName>
+<engineerTo>
+<item key="5E9EF375-5151-4D28-6D49-4511775AFDC1" value="true"/>
+</engineerTo>
+<sourcePk>885E6719-2DE9-E6B6-0AF2-6167C77EDACB</sourcePk>
+<targetPk>76508FEC-5752-A434-A258-211A50F3475E</targetPk>
+<identifying>false</identifying>
+<nameOnSource>Zatrudnia</nameOnSource>
+<nameOnTarget>Pracuje w</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>D7686460-791E-61EE-A1DF-C9C6B317A233</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>2650B27A-957C-B410-A236-74C1401DB41B</targetEntity>
+<transferable>true</transferable>
+<deleteRule>SET NULL</deleteRule>
+</Relation>

@@ -1,0 +1,22 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="TypInnegoObiektu" directorySegmentName="seg_0" id="C8F169FA-5AFE-CB61-3DAE-1F97711DC481">
+<createdBy>michalpiekarski</createdBy>
+<createdTime>2014-05-21 18:16:04 UTC</createdTime>
+<ownerDesignName>mydb</ownerDesignName>
+<engineerTo>
+<item key="CAED64DC-96A4-1A9D-3CED-DC37DC0AF476" value="true"/>
+</engineerTo>
+<targetTransferable>false</targetTransferable>
+<sourcePk>C7BB3660-1DCC-8092-2B56-515D117BC657</sourcePk>
+<arc>56DACC35-9032-BAA4-392D-EE7ABFE18520</arc>
+<identifying>false</identifying>
+<nameOnSource>Jest przypisany do</nameOnSource>
+<nameOnTarget>Jest typu</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>A3BCB0F4-D63B-FAF9-42A4-7A0AB6408A34</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>CF7348EF-BB8B-2FA7-054A-5E4EA18FF207</targetEntity>
+<transferable>true</transferable>
+</Relation>

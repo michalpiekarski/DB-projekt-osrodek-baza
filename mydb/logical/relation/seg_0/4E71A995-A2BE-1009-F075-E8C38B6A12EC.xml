@@ -1,0 +1,23 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="OsrodekObiektu" directorySegmentName="seg_0" id="4E71A995-A2BE-1009-F075-E8C38B6A12EC">
+<createdBy>michalpiekarski</createdBy>
+<createdTime>2014-05-15 20:35:03 UTC</createdTime>
+<generatorID>CB3D3D2A-3B98-3DA8-E8CA-7AB130FFC0AD</generatorID>
+<ownerDesignName>mydb</ownerDesignName>
+<engineerTo>
+<item key="5E9EF375-5151-4D28-6D49-4511775AFDC1" value="true"/>
+</engineerTo>
+<targetTransferable>false</targetTransferable>
+<sourcePk>885E6719-2DE9-E6B6-0AF2-6167C77EDACB</sourcePk>
+<identifying>false</identifying>
+<nameOnSource>Zawiera</nameOnSource>
+<nameOnTarget>Należy do</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>D7686460-791E-61EE-A1DF-C9C6B317A233</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>7ABAEF75-9327-E6F2-ED95-7DDF5FA55CC8</targetEntity>
+<transferable>true</transferable>
+<deleteRule>CASCADE</deleteRule>
+</Relation>

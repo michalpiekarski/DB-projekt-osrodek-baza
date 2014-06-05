@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4200EA4A-A6DE-7ECB-11B9-ED1E19BFA230" name="INNE_OBIEKTY">
+<createdBy>michalpiekarski</createdBy>
+<createdTime>2014-05-21 18:17:52 UTC</createdTime>
+<generatorID>CF7348EF-BB8B-2FA7-054A-5E4EA18FF207</generatorID>
+<ownerDesignName>mydb</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="7CBB150D-4AB3-88E0-AA4C-8009F70A725B">
+<createdBy>michalpiekarski</createdBy>
+<createdTime>2014-05-21 18:17:52 UTC</createdTime>
+<generatorID>ACC35FC4-7E49-4D28-A0A8-865591FB992C</generatorID>
+<ownerDesignName>mydb</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<delegate>EE3993E4-B931-FEA4-9E84-5BE9BAC923E8</delegate>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="63B907FD-1C19-3374-02B1-EE0956BE6209" referredColumn="EE3993E4-B931-FEA4-9E84-5BE9BAC923E8"/>
+</associations>
+</Column>
+<Column name="TYPY_OBIEKTOW_nazwa" id="E99C1D0D-3DFE-9B72-422A-F326558150C2">
+<createdBy>michalpiekarski</createdBy>
+<createdTime>2014-05-21 18:17:52 UTC</createdTime>
+<generatorID>0CB838E3-45E2-2C13-C625-FC2195980831</generatorID>
+<ownerDesignName>mydb</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<delegate>A353A1F0-7C64-0D01-459E-23659F4D1293</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CD5CE680-3153-1B49-764D-78A992B4C601" referredColumn="A353A1F0-7C64-0D01-459E-23659F4D1293"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5D441111-BAEC-46A8-5E5D-C3D7C4165FDB" name="INNE_OBIEKTY_PK">
+<createdBy>michalpiekarski</createdBy>
+<createdTime>2014-05-21 18:17:52 UTC</createdTime>
+<generatorID>E35692EE-605B-166C-1429-58DC771330C5</generatorID>
+<ownerDesignName>mydb</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7CBB150D-4AB3-88E0-AA4C-8009F70A725B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FB5D4725-4C2A-2396-2551-758553D341D7" name="FK_ASS_180">
+<createdBy>michalpiekarski</createdBy>
+<createdTime>2014-05-21 18:17:53 UTC</createdTime>
+<generatorID>0FE31551-DD40-2786-CD2E-26A50F6704EE</generatorID>
+<ownerDesignName>mydb</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7CBB150D-4AB3-88E0-AA4C-8009F70A725B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B50593C9-2A4D-ADC7-9F29-E43C4509EEA0" name="INNE_OBIEKTY_TYPY_OBIEKTOW_FK">
+<createdBy>michalpiekarski</createdBy>
+<createdTime>2014-05-21 18:17:53 UTC</createdTime>
+<generatorID>C8F169FA-5AFE-CB61-3DAE-1F97711DC481</generatorID>
+<ownerDesignName>mydb</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E99C1D0D-3DFE-9B72-422A-F326558150C2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,99 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BCDD0615-E383-CEDA-089D-62DB9F290819" name="POKOJE">
+<createdBy>michalpiekarski</createdBy>
+<createdTime>2014-05-21 18:17:52 UTC</createdTime>
+<generatorID>93648DE5-949E-9E54-11E9-A8A4FF7F982C</generatorID>
+<ownerDesignName>mydb</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="F9D592A5-5AEC-805B-22BA-2735F36DD857">
+<createdBy>michalpiekarski</createdBy>
+<createdTime>2014-05-21 18:17:52 UTC</createdTime>
+<generatorID>ACC35FC4-7E49-4D28-A0A8-865591FB992C</generatorID>
+<ownerDesignName>mydb</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<delegate>EE3993E4-B931-FEA4-9E84-5BE9BAC923E8</delegate>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="68B7E741-A9B7-DF15-81E1-227484DFEF41" referredColumn="EE3993E4-B931-FEA4-9E84-5BE9BAC923E8"/>
+</associations>
+</Column>
+<Column name="numer" id="48404BAC-55C0-9161-995A-5AA34A91D575">
+<createdBy>michalpiekarski</createdBy>
+<createdTime>2014-05-21 18:17:52 UTC</createdTime>
+<generatorID>80E742E3-8B08-690A-0B4D-19BC85807065</generatorID>
+<ownerDesignName>mydb</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="budynek" id="20F8E614-84AC-CDEF-EF6F-047B9713CD99">
+<createdBy>michalpiekarski</createdBy>
+<createdTime>2014-05-21 18:17:52 UTC</createdTime>
+<generatorID>8AA4ED1A-597A-E78E-8A24-A4DD81946CD1</generatorID>
+<ownerDesignName>mydb</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TYPY_OBIEKTOW_nazwa" id="E91F910F-A4A2-DDEC-9F23-41E5C2080B5D">
+<createdBy>michalpiekarski</createdBy>
+<createdTime>2014-05-21 18:17:52 UTC</createdTime>
+<generatorID>2A3A704D-F9E7-9233-BE92-4958EFA8830D</generatorID>
+<ownerDesignName>mydb</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<delegate>A353A1F0-7C64-0D01-459E-23659F4D1293</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7A4B42E1-82A8-7D2E-0A8E-613DD4B1377C" referredColumn="A353A1F0-7C64-0D01-459E-23659F4D1293"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="845E961A-7CCA-79B9-7065-47C7C314AEA2" name="POKOJE_PK">
+<createdBy>michalpiekarski</createdBy>
+<createdTime>2014-05-21 18:17:52 UTC</createdTime>
+<generatorID>E35692EE-605B-166C-1429-58DC771330C5</generatorID>
+<ownerDesignName>mydb</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F9D592A5-5AEC-805B-22BA-2735F36DD857"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0FEBC79B-3913-4D8E-BD60-F76529B7855E" name="FK_ASS_178">
+<createdBy>michalpiekarski</createdBy>
+<createdTime>2014-05-21 18:17:53 UTC</createdTime>
+<generatorID>C4E13BE8-9FB4-4F69-53E2-C0A9D77B582A</generatorID>
+<ownerDesignName>mydb</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F9D592A5-5AEC-805B-22BA-2735F36DD857"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E7402138-F4FE-03FB-EEA1-7EC5960DBC5C" name="POKOJE_TYPY_OBIEKTOW_FK">
+<createdBy>michalpiekarski</createdBy>
+<createdTime>2014-05-21 18:17:53 UTC</createdTime>
+<generatorID>13002552-CFBA-BC94-F66A-843C68D4E88B</generatorID>
+<ownerDesignName>mydb</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E91F910F-A4A2-DDEC-9F23-41E5C2080B5D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

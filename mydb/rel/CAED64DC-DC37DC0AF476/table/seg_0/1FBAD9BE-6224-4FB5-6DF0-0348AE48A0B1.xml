@@ -1,0 +1,61 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1FBAD9BE-6224-4FB5-6DF0-0348AE48A0B1" name="OBIEKTY">
+<createdBy>michalpiekarski</createdBy>
+<createdTime>2014-05-21 18:17:52 UTC</createdTime>
+<generatorID>7ABAEF75-9327-E6F2-ED95-7DDF5FA55CC8</generatorID>
+<ownerDesignName>mydb</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="EE3993E4-B931-FEA4-9E84-5BE9BAC923E8">
+<createdBy>michalpiekarski</createdBy>
+<createdTime>2014-05-21 18:17:52 UTC</createdTime>
+<generatorID>ACC35FC4-7E49-4D28-A0A8-865591FB992C</generatorID>
+<ownerDesignName>mydb</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="OSRODKI_id" id="70E4BA8D-BAD8-00AA-A281-644C81B97ACB">
+<createdBy>michalpiekarski</createdBy>
+<createdTime>2014-05-21 18:17:52 UTC</createdTime>
+<generatorID>413481C7-2AF3-F7D9-B914-AF6B07F85FF5</generatorID>
+<ownerDesignName>mydb</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<delegate>4108574C-F37F-E207-96FC-ECF73EFD60BD</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CAB06475-9DE6-BCB5-685C-2745F36E450F" referredColumn="4108574C-F37F-E207-96FC-ECF73EFD60BD"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="530E1234-416D-E407-CD4B-ADBA3AA5B108" name="OBIEKTY_PK">
+<createdBy>michalpiekarski</createdBy>
+<createdTime>2014-05-21 18:17:52 UTC</createdTime>
+<generatorID>E35692EE-605B-166C-1429-58DC771330C5</generatorID>
+<ownerDesignName>mydb</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EE3993E4-B931-FEA4-9E84-5BE9BAC923E8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C8962465-D9C1-3780-2A71-56698727EE53" name="OBIEKTY_OSRODKI_FK">
+<createdBy>michalpiekarski</createdBy>
+<createdTime>2014-05-21 18:17:53 UTC</createdTime>
+<generatorID>4E71A995-A2BE-1009-F075-E8C38B6A12EC</generatorID>
+<ownerDesignName>mydb</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="70E4BA8D-BAD8-00AA-A281-644C81B97ACB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

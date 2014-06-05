@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="TypWypozyczenia" directorySegmentName="seg_0" id="E12FFB77-5ADB-2439-8DFB-5A04494B795B">
+<createdBy>michalpiekarski</createdBy>
+<createdTime>2014-05-16 01:32:44 UTC</createdTime>
+<ownerDesignName>mydb</ownerDesignName>
+<engineerTo>
+<item key="5E9EF375-5151-4D28-6D49-4511775AFDC1" value="true"/>
+</engineerTo>
+<sourcePk>648A2267-AEAB-9EFC-9EB0-051AFE813796</sourcePk>
+<identifying>false</identifying>
+<nameOnSource>Przypisane do</nameOnSource>
+<nameOnTarget>Jest typu</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>C490DE6D-C505-081F-9E91-74E60B557121</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>824DFA04-A698-2882-1C38-0C683C4E22E0</targetEntity>
+<transferable>true</transferable>
+</Relation>

@@ -1,0 +1,73 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A3BCB0F4-D63B-FAF9-42A4-7A0AB6408A34" name="TYP_OBIEKTU">
+<createdBy>michalpiekarski</createdBy>
+<createdTime>2014-05-16 00:43:06 UTC</createdTime>
+<ownerDesignName>mydb</ownerDesignName>
+<engineerTo>
+<item key="CAED64DC-96A4-1A9D-3CED-DC37DC0AF476" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<preferredAbbreviation>TYPY_OBIEKTOW</preferredAbbreviation>
+<subtypesRefType>Arc implementation</subtypesRefType>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="nazwa" id="28CC6702-7A6B-C4D2-DC08-2E5539A7D39C">
+<createdBy>michalpiekarski</createdBy>
+<createdTime>2014-05-16 00:43:23 UTC</createdTime>
+<ownerDesignName>mydb</ownerDesignName>
+<engineerTo>
+<item key="CAED64DC-96A4-1A9D-3CED-DC37DC0AF476" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+</Attribute>
+<Attribute name="ilosc_miejsc" id="9B663A01-2E2A-415C-81B8-57B50C840FBA">
+<createdBy>michalpiekarski</createdBy>
+<createdTime>2014-05-16 00:43:38 UTC</createdTime>
+<ownerDesignName>mydb</ownerDesignName>
+<engineerTo>
+<item key="CAED64DC-96A4-1A9D-3CED-DC37DC0AF476" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+<Attribute name=" cena" id="EC86E31D-B69B-96E7-2166-F5FA3DE7F8FE">
+<createdBy>michalpiekarski</createdBy>
+<createdTime>2014-05-16 00:43:58 UTC</createdTime>
+<ownerDesignName>mydb</ownerDesignName>
+<engineerTo>
+<item key="CAED64DC-96A4-1A9D-3CED-DC37DC0AF476" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="C7BB3660-1DCC-8092-2B56-515D117BC657" name="typ_obiektu_pk">
+<createdBy>michalpiekarski</createdBy>
+<createdTime>2014-05-16 00:43:37 UTC</createdTime>
+<ownerDesignName>mydb</ownerDesignName>
+<engineerTo>
+<item key="CAED64DC-96A4-1A9D-3CED-DC37DC0AF476" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<newElementsIDs>28CC6702-7A6B-C4D2-DC08-2E5539A7D39C</newElementsIDs>
+<usedAttributes>
+<attributeRef>28CC6702-7A6B-C4D2-DC08-2E5539A7D39C</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="RachunkiPracownika" directorySegmentName="seg_0" id="67D16841-32AE-2995-64A1-C29C02275550">
+<createdBy>michalpiekarski</createdBy>
+<createdTime>2014-05-15 23:32:19 UTC</createdTime>
+<ownerDesignName>mydb</ownerDesignName>
+<engineerTo>
+<item key="5E9EF375-5151-4D28-6D49-4511775AFDC1" value="true"/>
+</engineerTo>
+<sourcePk>76508FEC-5752-A434-A258-211A50F3475E</sourcePk>
+<identifying>false</identifying>
+<nameOnSource>Obsługuje</nameOnSource>
+<nameOnTarget>Obsługiwany przez</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>2650B27A-957C-B410-A236-74C1401DB41B</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>67CEAD0E-60F1-B9DA-1B1D-91C0C7B2984A</targetEntity>
+<transferable>true</transferable>
+<deleteRule>SET NULL</deleteRule>
+</Relation>

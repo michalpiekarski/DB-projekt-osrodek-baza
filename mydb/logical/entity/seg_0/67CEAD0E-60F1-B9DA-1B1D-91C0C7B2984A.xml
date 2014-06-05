@@ -1,0 +1,97 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="67CEAD0E-60F1-B9DA-1B1D-91C0C7B2984A" name="RACHUNEK">
+<createdBy>michalpiekarski</createdBy>
+<createdTime>2014-05-15 22:32:15 UTC</createdTime>
+<ownerDesignName>mydb</ownerDesignName>
+<engineerTo>
+<item key="CAED64DC-96A4-1A9D-3CED-DC37DC0AF476" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<preferredAbbreviation>RACHUNKI</preferredAbbreviation>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="C7A9A2B7-CA75-8A07-77B9-FA416174697B">
+<createdBy>michalpiekarski</createdBy>
+<createdTime>2014-05-16 00:10:10 UTC</createdTime>
+<ownerDesignName>mydb</ownerDesignName>
+<engineerTo>
+<item key="CAED64DC-96A4-1A9D-3CED-DC37DC0AF476" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+<Attribute name="klient" id="9380B28E-67C9-965D-07D8-9C80BD869667">
+<createdBy>michalpiekarski</createdBy>
+<createdTime>2014-05-15 23:16:11 UTC</createdTime>
+<generatorID>CB31ACAB-DBDC-EF1E-2616-D687A4886F02</generatorID>
+<ownerDesignName>mydb</ownerDesignName>
+<engineerTo>
+<item key="CAED64DC-96A4-1A9D-3CED-DC37DC0AF476" value="true"/>
+</engineerTo>
+<referedAttribute>51E95209-461A-CC7B-3AC0-353DD3933DAC</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+<Attribute name="pracownik" id="7BC0644A-DF6D-D94A-AAF1-BB2C67995333">
+<createdBy>michalpiekarski</createdBy>
+<createdTime>2014-05-15 23:32:19 UTC</createdTime>
+<generatorID>67D16841-32AE-2995-64A1-C29C02275550</generatorID>
+<ownerDesignName>mydb</ownerDesignName>
+<engineerTo>
+<item key="CAED64DC-96A4-1A9D-3CED-DC37DC0AF476" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>F85BA4D2-E2F4-F792-D55A-F1377F3B11C6</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+<Attribute name="zaplacony" id="3A9525AF-4975-2CBA-7387-669E92377404">
+<createdBy>michalpiekarski</createdBy>
+<createdTime>2014-05-15 23:11:29 UTC</createdTime>
+<ownerDesignName>mydb</ownerDesignName>
+<engineerTo>
+<item key="CAED64DC-96A4-1A9D-3CED-DC37DC0AF476" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+</Attribute>
+<Attribute name="kwota" id="AF4A61C1-F145-4854-7494-0453C1A19C2A">
+<createdBy>michalpiekarski</createdBy>
+<createdTime>2014-05-15 23:11:45 UTC</createdTime>
+<ownerDesignName>mydb</ownerDesignName>
+<engineerTo>
+<item key="CAED64DC-96A4-1A9D-3CED-DC37DC0AF476" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="C40796BE-F0EC-7845-DF88-5B8E1612F610" name="rachunek_pk">
+<createdBy>michalpiekarski</createdBy>
+<createdTime>2014-05-15 23:12:23 UTC</createdTime>
+<ownerDesignName>mydb</ownerDesignName>
+<engineerTo>
+<item key="CAED64DC-96A4-1A9D-3CED-DC37DC0AF476" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<newElementsIDs>C7A9A2B7-CA75-8A07-77B9-FA416174697B</newElementsIDs>
+<usedAttributes>
+<attributeRef>C7A9A2B7-CA75-8A07-77B9-FA416174697B</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

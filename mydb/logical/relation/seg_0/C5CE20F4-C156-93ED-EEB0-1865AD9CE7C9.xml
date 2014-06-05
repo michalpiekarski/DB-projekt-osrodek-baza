@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="TypPosilku" directorySegmentName="seg_0" id="C5CE20F4-C156-93ED-EEB0-1865AD9CE7C9">
+<createdBy>michalpiekarski</createdBy>
+<createdTime>2014-05-16 01:32:02 UTC</createdTime>
+<ownerDesignName>mydb</ownerDesignName>
+<engineerTo>
+<item key="5E9EF375-5151-4D28-6D49-4511775AFDC1" value="true"/>
+</engineerTo>
+<sourcePk>648A2267-AEAB-9EFC-9EB0-051AFE813796</sourcePk>
+<identifying>false</identifying>
+<nameOnSource>Przypisany do</nameOnSource>
+<nameOnTarget>Jest typu</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>484461FC-45EB-6941-D38E-F55CA1CF54B4</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>45D928A0-BB1D-71E2-56B2-21F8F365C139</targetEntity>
+<transferable>true</transferable>
+</Relation>

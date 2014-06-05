@@ -1,0 +1,22 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="RachunkiKlienta" directorySegmentName="seg_0" id="CB31ACAB-DBDC-EF1E-2616-D687A4886F02">
+<createdBy>michalpiekarski</createdBy>
+<createdTime>2014-05-15 23:16:11 UTC</createdTime>
+<ownerDesignName>mydb</ownerDesignName>
+<engineerTo>
+<item key="5E9EF375-5151-4D28-6D49-4511775AFDC1" value="true"/>
+</engineerTo>
+<targetTransferable>false</targetTransferable>
+<sourcePk>E48BCF32-93DD-E912-0843-C396EED8B5A4</sourcePk>
+<identifying>false</identifying>
+<nameOnSource>Posiada</nameOnSource>
+<nameOnTarget>Wystawiony na</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>9EB3A79A-E61E-4753-CB5A-22DBF6957332</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>67CEAD0E-60F1-B9DA-1B1D-91C0C7B2984A</targetEntity>
+<transferable>true</transferable>
+<deleteRule>CASCADE</deleteRule>
+</Relation>

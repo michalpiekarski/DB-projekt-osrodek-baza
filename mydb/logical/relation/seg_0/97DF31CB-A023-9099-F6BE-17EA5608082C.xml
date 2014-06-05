@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="RezerwacjeRachunku" directorySegmentName="seg_0" id="97DF31CB-A023-9099-F6BE-17EA5608082C">
+<createdBy>michalpiekarski</createdBy>
+<createdTime>2014-05-16 00:47:58 UTC</createdTime>
+<ownerDesignName>mydb</ownerDesignName>
+<engineerTo>
+<item key="5E9EF375-5151-4D28-6D49-4511775AFDC1" value="true"/>
+</engineerTo>
+<sourcePk>C40796BE-F0EC-7845-DF88-5B8E1612F610</sourcePk>
+<identifying>false</identifying>
+<nameOnSource>Zawiera</nameOnSource>
+<nameOnTarget>Dokonana w ramach</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>67CEAD0E-60F1-B9DA-1B1D-91C0C7B2984A</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>44B6A3BD-831A-71A3-8FDE-E4F20EAA8605</targetEntity>
+<transferable>true</transferable>
+<deleteRule>CASCADE</deleteRule>
+</Relation>
