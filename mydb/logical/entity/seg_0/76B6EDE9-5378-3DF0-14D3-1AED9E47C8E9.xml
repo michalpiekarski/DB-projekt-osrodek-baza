@@ -4,7 +4,7 @@
 <createdTime>2014-05-21 17:56:01 UTC</createdTime>
 <ownerDesignName>mydb</ownerDesignName>
 <engineerTo>
-<item key="CAED64DC-96A4-1A9D-3CED-DC37DC0AF476" value="true"/>
+<item key="68AE232C-0844-9362-0F69-3CCDC29C4AD2" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -22,26 +22,12 @@
 <createdTime>2014-05-21 17:56:17 UTC</createdTime>
 <ownerDesignName>mydb</ownerDesignName>
 <engineerTo>
-<item key="CAED64DC-96A4-1A9D-3CED-DC37DC0AF476" value="true"/>
+<item key="68AE232C-0844-9362-0F69-3CCDC29C4AD2" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
-</Attribute>
-<Attribute name="TYP_OBIEKTU_nazwa" id="AB692686-A056-631E-5EEB-E0DB5B83522F">
-<createdBy>michalpiekarski</createdBy>
-<createdTime>2014-05-21 18:15:43 UTC</createdTime>
-<generatorID>5570E433-DCD6-7B34-B81A-322CFA7A9AC1</generatorID>
-<ownerDesignName>mydb</ownerDesignName>
-<engineerTo>
-<item key="CAED64DC-96A4-1A9D-3CED-DC37DC0AF476" value="true"/>
-</engineerTo>
-<referedAttribute>28CC6702-7A6B-C4D2-DC08-2E5539A7D39C</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>50 CHAR</dataTypeSize>
 </Attribute>
 </attributes>
 </Entity>

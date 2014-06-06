@@ -1,22 +1,21 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="TypPokoju" directorySegmentName="seg_0" id="13002552-CFBA-BC94-F66A-843C68D4E88B">
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="TypObiektu" directorySegmentName="seg_0" id="24C76B5A-7A23-E8D9-6288-F5D7D21E2F65">
 <createdBy>michalpiekarski</createdBy>
-<createdTime>2014-05-21 18:15:21 UTC</createdTime>
+<createdTime>2014-06-06 14:24:48 UTC</createdTime>
 <ownerDesignName>mydb</ownerDesignName>
 <engineerTo>
-<item key="CAED64DC-96A4-1A9D-3CED-DC37DC0AF476" value="true"/>
+<item key="68AE232C-0844-9362-0F69-3CCDC29C4AD2" value="true"/>
 </engineerTo>
 <targetTransferable>false</targetTransferable>
 <sourcePk>C7BB3660-1DCC-8092-2B56-515D117BC657</sourcePk>
-<arc>56DACC35-9032-BAA4-392D-EE7ABFE18520</arc>
 <identifying>false</identifying>
-<nameOnSource>Jest przypisany do</nameOnSource>
-<nameOnTarget>Jest typui</nameOnTarget>
+<nameOnSource>Jest nadany do</nameOnSource>
+<nameOnTarget>Jest typu</nameOnTarget>
 <optionalSource>true</optionalSource>
 <optionalTarget>false</optionalTarget>
 <sourceCardinality>1</sourceCardinality>
 <sourceEntity>A3BCB0F4-D63B-FAF9-42A4-7A0AB6408A34</sourceEntity>
 <targetCardinalityString>*</targetCardinalityString>
-<targetEntity>93648DE5-949E-9E54-11E9-A8A4FF7F982C</targetEntity>
+<targetEntity>7ABAEF75-9327-E6F2-ED95-7DDF5FA55CC8</targetEntity>
 <transferable>true</transferable>
 </Relation>

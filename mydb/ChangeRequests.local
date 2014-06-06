@@ -1,2 +1,4 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<oracle.dbtools.crest.model.design.Design/>
+<oracle.dbtools.crest.model.design.Design>
+   <object objectType="ChangeRequest" objectID="782C4442-306C-1469-5A89-DF4F321CA29F" name="Request_1" seqName=""/>
+</oracle.dbtools.crest.model.design.Design>

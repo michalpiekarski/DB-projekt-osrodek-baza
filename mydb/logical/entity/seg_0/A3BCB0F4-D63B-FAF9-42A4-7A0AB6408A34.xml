@@ -4,7 +4,7 @@
 <createdTime>2014-05-16 00:43:06 UTC</createdTime>
 <ownerDesignName>mydb</ownerDesignName>
 <engineerTo>
-<item key="CAED64DC-96A4-1A9D-3CED-DC37DC0AF476" value="true"/>
+<item key="68AE232C-0844-9362-0F69-3CCDC29C4AD2" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -22,36 +22,36 @@
 <createdTime>2014-05-16 00:43:23 UTC</createdTime>
 <ownerDesignName>mydb</ownerDesignName>
 <engineerTo>
-<item key="CAED64DC-96A4-1A9D-3CED-DC37DC0AF476" value="true"/>
+<item key="68AE232C-0844-9362-0F69-3CCDC29C4AD2" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>50 CHAR</dataTypeSize>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
 </Attribute>
 <Attribute name="ilosc_miejsc" id="9B663A01-2E2A-415C-81B8-57B50C840FBA">
 <createdBy>michalpiekarski</createdBy>
 <createdTime>2014-05-16 00:43:38 UTC</createdTime>
 <ownerDesignName>mydb</ownerDesignName>
 <engineerTo>
-<item key="CAED64DC-96A4-1A9D-3CED-DC37DC0AF476" value="true"/>
+<item key="68AE232C-0844-9362-0F69-3CCDC29C4AD2" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
+<logicalDatatype>LOGDT018</logicalDatatype>
 </Attribute>
 <Attribute name=" cena" id="EC86E31D-B69B-96E7-2166-F5FA3DE7F8FE">
 <createdBy>michalpiekarski</createdBy>
 <createdTime>2014-05-16 00:43:58 UTC</createdTime>
 <ownerDesignName>mydb</ownerDesignName>
 <engineerTo>
-<item key="CAED64DC-96A4-1A9D-3CED-DC37DC0AF476" value="true"/>
+<item key="68AE232C-0844-9362-0F69-3CCDC29C4AD2" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT026</logicalDatatype>
-<dataTypePrecision>5</dataTypePrecision>
+<dataTypePrecision>7</dataTypePrecision>
 <dataTypeScale>2</dataTypeScale>
 </Attribute>
 </attributes>
@@ -61,7 +61,7 @@
 <createdTime>2014-05-16 00:43:37 UTC</createdTime>
 <ownerDesignName>mydb</ownerDesignName>
 <engineerTo>
-<item key="CAED64DC-96A4-1A9D-3CED-DC37DC0AF476" value="true"/>
+<item key="68AE232C-0844-9362-0F69-3CCDC29C4AD2" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <newElementsIDs>28CC6702-7A6B-C4D2-DC08-2E5539A7D39C</newElementsIDs>

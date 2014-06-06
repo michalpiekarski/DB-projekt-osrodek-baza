@@ -5,7 +5,7 @@
 <generatorID>790880A2-5B90-AC42-F312-C28FCBC5F0C6</generatorID>
 <ownerDesignName>mydb</ownerDesignName>
 <engineerTo>
-<item key="CAED64DC-96A4-1A9D-3CED-DC37DC0AF476" value="true"/>
+<item key="68AE232C-0844-9362-0F69-3CCDC29C4AD2" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -23,12 +23,12 @@
 <generatorID>46B4070A-A834-8F97-BF5B-6EA728D6115A</generatorID>
 <ownerDesignName>mydb</ownerDesignName>
 <engineerTo>
-<item key="CAED64DC-96A4-1A9D-3CED-DC37DC0AF476" value="true"/>
+<item key="68AE232C-0844-9362-0F69-3CCDC29C4AD2" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>25 CHAR</dataTypeSize>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
 </Attribute>
 <Attribute name="placa_od" id="DB65F9DF-5E8E-7A7D-908B-FE064EC255C7">
 <createdBy>michalpiekarski</createdBy>
@@ -36,12 +36,12 @@
 <generatorID>6C8C9D42-638F-9FEF-A0FE-1BF6BCF3B484</generatorID>
 <ownerDesignName>mydb</ownerDesignName>
 <engineerTo>
-<item key="CAED64DC-96A4-1A9D-3CED-DC37DC0AF476" value="true"/>
+<item key="68AE232C-0844-9362-0F69-3CCDC29C4AD2" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT026</logicalDatatype>
-<dataTypePrecision>5</dataTypePrecision>
+<dataTypePrecision>7</dataTypePrecision>
 <dataTypeScale>2</dataTypeScale>
 </Attribute>
 <Attribute name="placa_do" id="E3E9ABD2-405C-A260-C69C-C84EEF0EB387">
@@ -50,12 +50,12 @@
 <generatorID>456BDD02-255F-990E-1849-28BB85BE8CB9</generatorID>
 <ownerDesignName>mydb</ownerDesignName>
 <engineerTo>
-<item key="CAED64DC-96A4-1A9D-3CED-DC37DC0AF476" value="true"/>
+<item key="68AE232C-0844-9362-0F69-3CCDC29C4AD2" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT026</logicalDatatype>
-<dataTypePrecision>5</dataTypePrecision>
+<dataTypePrecision>7</dataTypePrecision>
 <dataTypeScale>2</dataTypeScale>
 </Attribute>
 </attributes>
@@ -66,7 +66,7 @@
 <generatorID>CF6D62F0-8042-2FB4-EC41-1766856EC15E</generatorID>
 <ownerDesignName>mydb</ownerDesignName>
 <engineerTo>
-<item key="CAED64DC-96A4-1A9D-3CED-DC37DC0AF476" value="true"/>
+<item key="68AE232C-0844-9362-0F69-3CCDC29C4AD2" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <newElementsIDs>0E79338F-8C25-1F99-049E-42CE9E6FA1E8</newElementsIDs>

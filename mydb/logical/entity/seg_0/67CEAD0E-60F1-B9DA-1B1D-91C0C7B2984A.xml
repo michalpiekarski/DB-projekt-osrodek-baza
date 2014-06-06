@@ -4,7 +4,7 @@
 <createdTime>2014-05-15 22:32:15 UTC</createdTime>
 <ownerDesignName>mydb</ownerDesignName>
 <engineerTo>
-<item key="CAED64DC-96A4-1A9D-3CED-DC37DC0AF476" value="true"/>
+<item key="68AE232C-0844-9362-0F69-3CCDC29C4AD2" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -21,19 +21,19 @@
 <createdTime>2014-05-16 00:10:10 UTC</createdTime>
 <ownerDesignName>mydb</ownerDesignName>
 <engineerTo>
-<item key="CAED64DC-96A4-1A9D-3CED-DC37DC0AF476" value="true"/>
+<item key="68AE232C-0844-9362-0F69-3CCDC29C4AD2" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
 </Attribute>
-<Attribute name="klient" id="9380B28E-67C9-965D-07D8-9C80BD869667">
+<Attribute name="klient" id="3940E4C5-8732-322D-E5B3-FC0A45BE790B">
 <createdBy>michalpiekarski</createdBy>
-<createdTime>2014-05-15 23:16:11 UTC</createdTime>
+<createdTime>2014-06-06 13:37:49 UTC</createdTime>
 <generatorID>CB31ACAB-DBDC-EF1E-2616-D687A4886F02</generatorID>
 <ownerDesignName>mydb</ownerDesignName>
 <engineerTo>
-<item key="CAED64DC-96A4-1A9D-3CED-DC37DC0AF476" value="true"/>
+<item key="68AE232C-0844-9362-0F69-3CCDC29C4AD2" value="true"/>
 </engineerTo>
 <referedAttribute>51E95209-461A-CC7B-3AC0-353DD3933DAC</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
@@ -46,7 +46,7 @@
 <generatorID>67D16841-32AE-2995-64A1-C29C02275550</generatorID>
 <ownerDesignName>mydb</ownerDesignName>
 <engineerTo>
-<item key="CAED64DC-96A4-1A9D-3CED-DC37DC0AF476" value="true"/>
+<item key="68AE232C-0844-9362-0F69-3CCDC29C4AD2" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <referedAttribute>F85BA4D2-E2F4-F792-D55A-F1377F3B11C6</referedAttribute>
@@ -54,29 +54,29 @@
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
 </Attribute>
-<Attribute name="zaplacony" id="3A9525AF-4975-2CBA-7387-669E92377404">
-<createdBy>michalpiekarski</createdBy>
-<createdTime>2014-05-15 23:11:29 UTC</createdTime>
-<ownerDesignName>mydb</ownerDesignName>
-<engineerTo>
-<item key="CAED64DC-96A4-1A9D-3CED-DC37DC0AF476" value="true"/>
-</engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT006</logicalDatatype>
-</Attribute>
 <Attribute name="kwota" id="AF4A61C1-F145-4854-7494-0453C1A19C2A">
 <createdBy>michalpiekarski</createdBy>
 <createdTime>2014-05-15 23:11:45 UTC</createdTime>
 <ownerDesignName>mydb</ownerDesignName>
 <engineerTo>
-<item key="CAED64DC-96A4-1A9D-3CED-DC37DC0AF476" value="true"/>
+<item key="68AE232C-0844-9362-0F69-3CCDC29C4AD2" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT026</logicalDatatype>
-<dataTypePrecision>5</dataTypePrecision>
+<dataTypePrecision>9</dataTypePrecision>
 <dataTypeScale>2</dataTypeScale>
+</Attribute>
+<Attribute name="zaplacony" id="3A9525AF-4975-2CBA-7387-669E92377404">
+<createdBy>michalpiekarski</createdBy>
+<createdTime>2014-05-15 23:11:29 UTC</createdTime>
+<ownerDesignName>mydb</ownerDesignName>
+<engineerTo>
+<item key="68AE232C-0844-9362-0F69-3CCDC29C4AD2" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
@@ -85,7 +85,7 @@
 <createdTime>2014-05-15 23:12:23 UTC</createdTime>
 <ownerDesignName>mydb</ownerDesignName>
 <engineerTo>
-<item key="CAED64DC-96A4-1A9D-3CED-DC37DC0AF476" value="true"/>
+<item key="68AE232C-0844-9362-0F69-3CCDC29C4AD2" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <newElementsIDs>C7A9A2B7-CA75-8A07-77B9-FA416174697B</newElementsIDs>

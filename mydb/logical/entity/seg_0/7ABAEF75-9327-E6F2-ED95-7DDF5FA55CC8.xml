@@ -5,7 +5,7 @@
 <generatorID>F23EC63E-3B27-C748-0348-6774D0EE48D5</generatorID>
 <ownerDesignName>mydb</ownerDesignName>
 <engineerTo>
-<item key="CAED64DC-96A4-1A9D-3CED-DC37DC0AF476" value="true"/>
+<item key="68AE232C-0844-9362-0F69-3CCDC29C4AD2" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -23,24 +23,39 @@
 <generatorID>E439AF2D-A553-3C53-DC54-AD75FEAD5B37</generatorID>
 <ownerDesignName>mydb</ownerDesignName>
 <engineerTo>
-<item key="CAED64DC-96A4-1A9D-3CED-DC37DC0AF476" value="true"/>
+<item key="68AE232C-0844-9362-0F69-3CCDC29C4AD2" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
 </Attribute>
-<Attribute name="osrodek" id="413481C7-2AF3-F7D9-B914-AF6B07F85FF5">
+<Attribute name="osrodek" id="B4A2C89A-AA5D-0F11-7FAA-0A6A82DAEC69">
 <createdBy>michalpiekarski</createdBy>
-<createdTime>2014-05-15 20:35:03 UTC</createdTime>
+<createdTime>2014-06-06 14:16:13 UTC</createdTime>
 <generatorID>4E71A995-A2BE-1009-F075-E8C38B6A12EC</generatorID>
 <ownerDesignName>mydb</ownerDesignName>
 <engineerTo>
-<item key="CAED64DC-96A4-1A9D-3CED-DC37DC0AF476" value="true"/>
+<item key="68AE232C-0844-9362-0F69-3CCDC29C4AD2" value="true"/>
 </engineerTo>
-<referedAttribute>BAC1D9CD-3EAC-9E43-00F8-182DDB012E26</referedAttribute>
+<referedAttribute>5AD4D474-7238-176B-5922-1C613E892847</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+</Attribute>
+<Attribute name="typ_obiektu" id="08316789-2410-2A1C-AFF9-2EB590DE6CDF">
+<createdBy>michalpiekarski</createdBy>
+<createdTime>2014-06-06 14:24:48 UTC</createdTime>
+<generatorID>24C76B5A-7A23-E8D9-6288-F5D7D21E2F65</generatorID>
+<ownerDesignName>mydb</ownerDesignName>
+<engineerTo>
+<item key="68AE232C-0844-9362-0F69-3CCDC29C4AD2" value="true"/>
+</engineerTo>
+<referedAttribute>28CC6702-7A6B-C4D2-DC08-2E5539A7D39C</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
@@ -50,7 +65,7 @@
 <generatorID>CE346179-23FE-5BB5-B22B-D0F82ADEDCDC</generatorID>
 <ownerDesignName>mydb</ownerDesignName>
 <engineerTo>
-<item key="CAED64DC-96A4-1A9D-3CED-DC37DC0AF476" value="true"/>
+<item key="68AE232C-0844-9362-0F69-3CCDC29C4AD2" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <newElementsIDs>ACC35FC4-7E49-4D28-A0A8-865591FB992C</newElementsIDs>

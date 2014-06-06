@@ -4,7 +4,7 @@
 <createdTime>2014-05-21 17:56:45 UTC</createdTime>
 <ownerDesignName>mydb</ownerDesignName>
 <engineerTo>
-<item key="CAED64DC-96A4-1A9D-3CED-DC37DC0AF476" value="true"/>
+<item key="68AE232C-0844-9362-0F69-3CCDC29C4AD2" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -16,20 +16,4 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <preferredAbbreviation>INNE_OBIEKTY</preferredAbbreviation>
-<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="TYP_OBIEKTU_nazwa" id="0CB838E3-45E2-2C13-C625-FC2195980831">
-<createdBy>michalpiekarski</createdBy>
-<createdTime>2014-05-21 18:16:04 UTC</createdTime>
-<generatorID>C8F169FA-5AFE-CB61-3DAE-1F97711DC481</generatorID>
-<ownerDesignName>mydb</ownerDesignName>
-<engineerTo>
-<item key="CAED64DC-96A4-1A9D-3CED-DC37DC0AF476" value="true"/>
-</engineerTo>
-<referedAttribute>28CC6702-7A6B-C4D2-DC08-2E5539A7D39C</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>50 CHAR</dataTypeSize>
-</Attribute>
-</attributes>
 </Entity>

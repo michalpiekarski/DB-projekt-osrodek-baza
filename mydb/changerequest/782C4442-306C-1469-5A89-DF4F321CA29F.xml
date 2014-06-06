@@ -1,0 +1,10 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<ChangeRequest class="oracle.dbtools.crest.model.ChangeRequest" name="Request_1" id="782C4442-306C-1469-5A89-DF4F321CA29F">
+<createdBy>michalpiekarski</createdBy>
+<createdTime>2014-06-06 13:49:01 UTC</createdTime>
+<ownerDesignName>mydb</ownerDesignName>
+<engineerTo>
+<item key="68AE232C-0844-9362-0F69-3CCDC29C4AD2" value="true"/>
+</engineerTo>
+<status>Proposed</status>
+</ChangeRequest>

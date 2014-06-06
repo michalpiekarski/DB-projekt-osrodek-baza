@@ -1,2 +1,4 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<oracle.dbtools.crest.model.businessinfo.BusinessInfoDesign/>
+<oracle.dbtools.crest.model.businessinfo.BusinessInfoDesign>
+   <object objectType="ResponsibleParty" objectID="32B2B0CE-6DA1-A052-9BD4-393A7801D972" name="ResParty_1" seqName="seg_0"/>
+</oracle.dbtools.crest.model.businessinfo.BusinessInfoDesign>

@@ -30,9 +30,7 @@
    <object objectType="Relation" objectID="FC3EDDA7-44B6-473C-0743-DA86BED5F111" name="RezerwacjaObiektu" seqName="seg_0"/>
    <object objectType="Relation" objectID="97DF31CB-A023-9099-F6BE-17EA5608082C" name="RezerwacjeRachunku" seqName="seg_0"/>
    <object objectType="Relation" objectID="CC676B2D-B677-C583-5E47-2E8182A73931" name="StanowiskoPracownika" seqName="seg_0"/>
-   <object objectType="Relation" objectID="5570E433-DCD6-7B34-B81A-322CFA7A9AC1" name="TypDomku" seqName="seg_0"/>
-   <object objectType="Relation" objectID="C8F169FA-5AFE-CB61-3DAE-1F97711DC481" name="TypInnegoObiektu" seqName="seg_0"/>
-   <object objectType="Relation" objectID="13002552-CFBA-BC94-F66A-843C68D4E88B" name="TypPokoju" seqName="seg_0"/>
+   <object objectType="Relation" objectID="24C76B5A-7A23-E8D9-6288-F5D7D21E2F65" name="TypObiektu" seqName="seg_0"/>
    <object objectType="Relation" objectID="C5CE20F4-C156-93ED-EEB0-1865AD9CE7C9" name="TypPosilku" seqName="seg_0"/>
    <object objectType="Relation" objectID="047A1F02-3F69-5ED8-A192-B0A8AF2C1B1D" name="TypUslugi" seqName="seg_0"/>
    <object objectType="Relation" objectID="E12FFB77-5ADB-2439-8DFB-5A04494B795B" name="TypWypozyczenia" seqName="seg_0"/>
@@ -48,5 +46,4 @@
    <object objectType="Hierarchy relation" objectID="D94F658C-B0B6-EEDB-BCDA-FA121A8CBCDB" name="Hierarchy_5" seqName="seg_0"/>
    <object objectType="Hierarchy relation" objectID="A36B4CA3-B17C-C3BA-17C2-DDA2B2C0FE5A" name="Hierarchy_6" seqName="seg_0"/>
    <object objectType="Hierarchy relation" objectID="7D93C2DA-100E-6932-E39B-7174CE417AF3" name="Hierarchy_7" seqName="seg_0"/>
-   <object objectType="Arc" objectID="56DACC35-9032-BAA4-392D-EE7ABFE18520" name="TypObiektu" seqName="seg_0"/>
 </oracle.dbtools.crest.model.design.logical.LogicalDesign>

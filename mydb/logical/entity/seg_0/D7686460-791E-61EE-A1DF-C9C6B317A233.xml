@@ -5,7 +5,7 @@
 <generatorID>275A2CC5-3193-326D-2280-63597FFB4EFE</generatorID>
 <ownerDesignName>mydb</ownerDesignName>
 <engineerTo>
-<item key="CAED64DC-96A4-1A9D-3CED-DC37DC0AF476" value="true"/>
+<item key="68AE232C-0844-9362-0F69-3CCDC29C4AD2" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -17,52 +17,89 @@
 <normalForm>Third</normalForm>
 <preferredAbbreviation>OSRODKI</preferredAbbreviation>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="id" id="BAC1D9CD-3EAC-9E43-00F8-182DDB012E26">
-<createdBy>michalpiekarski</createdBy>
-<createdTime>2014-05-15 20:35:03 UTC</createdTime>
-<generatorID>1D1EBA12-D13C-E98D-4CD7-F2A27468408F</generatorID>
-<ownerDesignName>mydb</ownerDesignName>
-<engineerTo>
-<item key="CAED64DC-96A4-1A9D-3CED-DC37DC0AF476" value="true"/>
-</engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-</Attribute>
 <Attribute name="nazwa" id="5AD4D474-7238-176B-5922-1C613E892847">
 <createdBy>michalpiekarski</createdBy>
 <createdTime>2014-05-15 20:35:03 UTC</createdTime>
 <generatorID>C93525C7-9324-9838-0E95-DDB800DBD8BC</generatorID>
 <ownerDesignName>mydb</ownerDesignName>
 <engineerTo>
-<item key="CAED64DC-96A4-1A9D-3CED-DC37DC0AF476" value="true"/>
+<item key="68AE232C-0844-9362-0F69-3CCDC29C4AD2" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>50 CHAR</dataTypeSize>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
 </Attribute>
-<Attribute name="adres" id="8CC2FE79-2256-E4AA-3DE7-6A5CA83B037A">
+<Attribute name="ulica" id="8CC2FE79-2256-E4AA-3DE7-6A5CA83B037A">
 <createdBy>michalpiekarski</createdBy>
 <createdTime>2014-05-15 20:35:03 UTC</createdTime>
 <generatorID>3BBC5119-6B1C-9618-0F8E-BA1ABE9D88D3</generatorID>
 <ownerDesignName>mydb</ownerDesignName>
 <engineerTo>
-<item key="CAED64DC-96A4-1A9D-3CED-DC37DC0AF476" value="true"/>
+<item key="68AE232C-0844-9362-0F69-3CCDC29C4AD2" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>100 CHAR</dataTypeSize>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+</Attribute>
+<Attribute name="kod_pocztowy" id="DB71099F-679B-5CB0-5D17-17822A3348A0">
+<createdBy>michalpiekarski</createdBy>
+<createdTime>2014-06-06 14:14:17 UTC</createdTime>
+<ownerDesignName>mydb</ownerDesignName>
+<engineerTo>
+<item key="68AE232C-0844-9362-0F69-3CCDC29C4AD2" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT035</logicalDatatype>
+<dataTypeSize>6</dataTypeSize>
+</Attribute>
+<Attribute name="miasto" id="6D0A405B-E31C-AE80-AE64-77666C831B06">
+<createdBy>michalpiekarski</createdBy>
+<createdTime>2014-06-06 14:14:57 UTC</createdTime>
+<ownerDesignName>mydb</ownerDesignName>
+<engineerTo>
+<item key="68AE232C-0844-9362-0F69-3CCDC29C4AD2" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+</Attribute>
+<Attribute name="telefon" id="DD5A970E-8694-AD42-321F-4C8E73FC1494">
+<createdBy>michalpiekarski</createdBy>
+<createdTime>2014-06-06 14:15:16 UTC</createdTime>
+<ownerDesignName>mydb</ownerDesignName>
+<engineerTo>
+<item key="68AE232C-0844-9362-0F69-3CCDC29C4AD2" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+</Attribute>
+<Attribute name="email" id="E05D3566-95A6-DD78-6961-159A1B63A7E5">
+<createdBy>michalpiekarski</createdBy>
+<createdTime>2014-06-06 14:15:36 UTC</createdTime>
+<ownerDesignName>mydb</ownerDesignName>
+<engineerTo>
+<item key="68AE232C-0844-9362-0F69-3CCDC29C4AD2" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
 </Attribute>
 <Attribute name="otwarty" id="29E3D598-1F69-305F-23D3-CB004D1CAB12">
 <createdBy>michalpiekarski</createdBy>
 <createdTime>2014-05-15 20:35:03 UTC</createdTime>
-<comment>Czy dany ośrodek jest otwarty?</comment>
 <generatorID>463CDC07-A319-D902-EE49-E44C488CF43B</generatorID>
 <ownerDesignName>mydb</ownerDesignName>
 <engineerTo>
-<item key="CAED64DC-96A4-1A9D-3CED-DC37DC0AF476" value="true"/>
+<item key="68AE232C-0844-9362-0F69-3CCDC29C4AD2" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -77,12 +114,12 @@
 <generatorID>9221C41B-C5A4-B9B9-685A-0F55AC2B68F4</generatorID>
 <ownerDesignName>mydb</ownerDesignName>
 <engineerTo>
-<item key="CAED64DC-96A4-1A9D-3CED-DC37DC0AF476" value="true"/>
+<item key="68AE232C-0844-9362-0F69-3CCDC29C4AD2" value="true"/>
 </engineerTo>
 <pk>true</pk>
-<newElementsIDs>BAC1D9CD-3EAC-9E43-00F8-182DDB012E26</newElementsIDs>
+<newElementsIDs>5AD4D474-7238-176B-5922-1C613E892847</newElementsIDs>
 <usedAttributes>
-<attributeRef>BAC1D9CD-3EAC-9E43-00F8-182DDB012E26</attributeRef>
+<attributeRef>5AD4D474-7238-176B-5922-1C613E892847</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>
