@@ -1,0 +1,104 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9A4AFF67-D47C-8856-62B0-AE43CBE8AD10" name="OSRODKI">
+<createdBy>michalpiekarski</createdBy>
+<createdTime>2014-06-07 20:15:57 UTC</createdTime>
+<generatorID>D7686460-791E-61EE-A1DF-C9C6B317A233</generatorID>
+<ownerDesignName>mydb</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="nazwa" id="ED0C3F5A-E9A7-4827-A818-7F45A2987D46">
+<createdBy>michalpiekarski</createdBy>
+<createdTime>2014-06-07 20:15:57 UTC</createdTime>
+<generatorID>5AD4D474-7238-176B-5922-1C613E892847</generatorID>
+<ownerDesignName>mydb</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ulica" id="770145D4-E2F1-A7CE-C4D0-913D5195EA16">
+<createdBy>michalpiekarski</createdBy>
+<createdTime>2014-06-07 20:15:57 UTC</createdTime>
+<generatorID>8CC2FE79-2256-E4AA-3DE7-6A5CA83B037A</generatorID>
+<ownerDesignName>mydb</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="kod_pocztowy" id="C54CBFE7-CE1D-91CE-61C0-F00FFD5A8D2B">
+<createdBy>michalpiekarski</createdBy>
+<createdTime>2014-06-07 20:15:57 UTC</createdTime>
+<generatorID>DB71099F-679B-5CB0-5D17-17822A3348A0</generatorID>
+<ownerDesignName>mydb</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT035</logicalDatatype>
+<dataTypeSize>6</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="miasto" id="1FDA1354-3615-901E-927F-E211BA993DBB">
+<createdBy>michalpiekarski</createdBy>
+<createdTime>2014-06-07 20:15:57 UTC</createdTime>
+<generatorID>6D0A405B-E31C-AE80-AE64-77666C831B06</generatorID>
+<ownerDesignName>mydb</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="telefon" id="B793B190-5035-3295-25BC-7510FCA11764">
+<createdBy>michalpiekarski</createdBy>
+<createdTime>2014-06-07 20:15:57 UTC</createdTime>
+<generatorID>DD5A970E-8694-AD42-321F-4C8E73FC1494</generatorID>
+<ownerDesignName>mydb</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="email" id="CD2DFEE6-53A1-7A23-6CB0-999D099B9B4A">
+<createdBy>michalpiekarski</createdBy>
+<createdTime>2014-06-07 20:15:57 UTC</createdTime>
+<generatorID>E05D3566-95A6-DD78-6961-159A1B63A7E5</generatorID>
+<ownerDesignName>mydb</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="otwarty" id="AE18D80D-39E3-3126-9A9F-3C5C19240EFF">
+<createdBy>michalpiekarski</createdBy>
+<createdTime>2014-06-07 20:15:57 UTC</createdTime>
+<generatorID>29E3D598-1F69-305F-23D3-CB004D1CAB12</generatorID>
+<ownerDesignName>mydb</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<defaultValue>0 COMMENT &apos;Czy osrodek jest otwarty?&apos;</defaultValue>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1A4DC922-F795-D893-B934-CF0BCC3D2EBB" name="OSRODKI_PK">
+<createdBy>michalpiekarski</createdBy>
+<createdTime>2014-06-07 20:15:57 UTC</createdTime>
+<generatorID>885E6719-2DE9-E6B6-0AF2-6167C77EDACB</generatorID>
+<ownerDesignName>mydb</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="ED0C3F5A-E9A7-4827-A818-7F45A2987D46"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

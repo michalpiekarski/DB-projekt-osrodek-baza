@@ -1,0 +1,119 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="81155598-A7CF-9F5B-BECF-364DF3033520" name="ZAMOWIENIA_WYPOZYCZEN">
+<createdBy>michalpiekarski</createdBy>
+<createdTime>2014-06-07 20:15:57 UTC</createdTime>
+<generatorID>824DFA04-A698-2882-1C38-0C683C4E22E0</generatorID>
+<ownerDesignName>mydb</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="922A1359-9DE7-A10C-C3E4-3C8CEE360D6F">
+<createdBy>michalpiekarski</createdBy>
+<createdTime>2014-06-07 20:15:57 UTC</createdTime>
+<generatorID>94F7564F-28F5-F740-99D9-DFFE3C439F06</generatorID>
+<ownerDesignName>mydb</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="rachunek" id="D80CCDA3-0A97-41DE-B487-604EF48173E6">
+<createdBy>michalpiekarski</createdBy>
+<createdTime>2014-06-07 20:15:57 UTC</createdTime>
+<generatorID>E38C847A-514E-FEE1-8037-D7FBA61735EF</generatorID>
+<ownerDesignName>mydb</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<delegate>4346C9EF-1B29-4B6C-27B9-DD081221A8D9</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5FE7783D-DCE5-1455-0981-11F7889EAF8D" referredColumn="4346C9EF-1B29-4B6C-27B9-DD081221A8D9"/>
+</associations>
+</Column>
+<Column name="ilosc" id="F33D70C5-7FED-CDDD-69FF-69C7B2205DAD">
+<createdBy>michalpiekarski</createdBy>
+<createdTime>2014-06-07 20:15:57 UTC</createdTime>
+<generatorID>20E9F37D-3799-32B5-0728-42E649617450</generatorID>
+<ownerDesignName>mydb</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="typ" id="51FBDC83-5DBB-1737-F961-1132E981AB7D">
+<createdBy>michalpiekarski</createdBy>
+<createdTime>2014-06-07 20:15:57 UTC</createdTime>
+<generatorID>4770010F-6F68-89B3-C1AD-50E1706E524E</generatorID>
+<ownerDesignName>mydb</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<delegate>ADA06B0F-02CA-FD5D-8D04-549C8BDF4098</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="12CD4B27-647D-FABB-BD47-298ADBD19632" referredColumn="ADA06B0F-02CA-FD5D-8D04-549C8BDF4098"/>
+</associations>
+</Column>
+<Column name="data_od" id="A51EECBE-4854-4A66-6D2A-FA29C9BEA845">
+<createdBy>michalpiekarski</createdBy>
+<createdTime>2014-06-07 20:15:57 UTC</createdTime>
+<generatorID>F0220594-998A-75A6-C423-8E6E92C18AEF</generatorID>
+<ownerDesignName>mydb</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="data_do" id="F7D04EEE-3964-8280-1681-C6E72C4078C9">
+<createdBy>michalpiekarski</createdBy>
+<createdTime>2014-06-07 20:15:57 UTC</createdTime>
+<generatorID>341C520A-E803-117C-CA38-CF8035C5B2B3</generatorID>
+<ownerDesignName>mydb</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1AE7232D-EFC1-CCC4-351E-1F68B5894825" name="ZAMOWIENIA_WYPOZYCZEN_PK">
+<createdBy>michalpiekarski</createdBy>
+<createdTime>2014-06-07 20:15:57 UTC</createdTime>
+<generatorID>826A4143-C541-0DDC-B432-C82EBFFFCC4B</generatorID>
+<ownerDesignName>mydb</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="922A1359-9DE7-A10C-C3E4-3C8CEE360D6F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="951C4C29-637F-E4FE-8E61-71657186F25B" name="RachunekWypozyczenia">
+<createdBy>michalpiekarski</createdBy>
+<createdTime>2014-06-07 20:15:57 UTC</createdTime>
+<generatorID>899FEAD8-CFCE-7D2E-CC2D-2C05FD862CDF</generatorID>
+<ownerDesignName>mydb</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D80CCDA3-0A97-41DE-B487-604EF48173E6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B2C153F7-5B02-E490-9E79-E080C5B59BCC" name="TypWypozyczenia">
+<createdBy>michalpiekarski</createdBy>
+<createdTime>2014-06-07 20:15:57 UTC</createdTime>
+<generatorID>E12FFB77-5ADB-2439-8DFB-5A04494B795B</generatorID>
+<ownerDesignName>mydb</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="51FBDC83-5DBB-1737-F961-1132E981AB7D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

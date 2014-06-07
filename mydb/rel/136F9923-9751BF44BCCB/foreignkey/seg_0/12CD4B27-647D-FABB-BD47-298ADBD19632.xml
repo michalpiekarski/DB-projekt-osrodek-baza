@@ -1,0 +1,14 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="12CD4B27-647D-FABB-BD47-298ADBD19632" name="TypWypozyczenia">
+<createdBy>michalpiekarski</createdBy>
+<createdTime>2014-06-07 20:15:57 UTC</createdTime>
+<generatorID>E12FFB77-5ADB-2439-8DFB-5A04494B795B</generatorID>
+<ownerDesignName>mydb</ownerDesignName>
+<containerWithKeyObject>81155598-A7CF-9F5B-BECF-364DF3033520</containerWithKeyObject>
+<deleteRule>NO ACTION</deleteRule>
+<localFKIndex>B2C153F7-5B02-E490-9E79-E080C5B59BCC</localFKIndex>
+<keyObject>4CF82457-F501-E742-D3C5-3E32112014A6</keyObject>
+<mandatory>true</mandatory>
+<transferable>true</transferable>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

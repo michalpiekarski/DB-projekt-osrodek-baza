@@ -1,11 +1,8 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
 <oracle.dbtools.crest.model.design.logical.LogicalDesign>
-   <object objectType="Entity" objectID="76B6EDE9-5378-3DF0-14D3-1AED9E47C8E9" name="DOMEK" seqName="seg_0"/>
-   <object objectType="Entity" objectID="CF7348EF-BB8B-2FA7-054A-5E4EA18FF207" name="INNY_OBIEKT" seqName="seg_0"/>
    <object objectType="Entity" objectID="9EB3A79A-E61E-4753-CB5A-22DBF6957332" name="KLIENT" seqName="seg_0"/>
    <object objectType="Entity" objectID="7ABAEF75-9327-E6F2-ED95-7DDF5FA55CC8" name="OBIEKT" seqName="seg_0"/>
    <object objectType="Entity" objectID="D7686460-791E-61EE-A1DF-C9C6B317A233" name="OSRODEK" seqName="seg_0"/>
-   <object objectType="Entity" objectID="93648DE5-949E-9E54-11E9-A8A4FF7F982C" name="POKOJ" seqName="seg_0"/>
    <object objectType="Entity" objectID="484461FC-45EB-6941-D38E-F55CA1CF54B4" name="POSILEK" seqName="seg_0"/>
    <object objectType="Entity" objectID="2650B27A-957C-B410-A236-74C1401DB41B" name="PRACOWNIK" seqName="seg_0"/>
    <object objectType="Entity" objectID="67CEAD0E-60F1-B9DA-1B1D-91C0C7B2984A" name="RACHUNEK" seqName="seg_0"/>
@@ -32,11 +29,8 @@
    <object objectType="Relation" objectID="047A1F02-3F69-5ED8-A192-B0A8AF2C1B1D" name="TypUslugi" seqName="seg_0"/>
    <object objectType="Relation" objectID="E12FFB77-5ADB-2439-8DFB-5A04494B795B" name="TypWypozyczenia" seqName="seg_0"/>
    <object objectType="Hierarchy relation" objectID="F419C24B-ACBD-0A8B-6BD7-AB890CCD62A7" name="Hierarchy_1" seqName="seg_0"/>
-   <object objectType="Hierarchy relation" objectID="681A2709-D021-97AC-16AC-1DDA62E7489A" name="Hierarchy_11" seqName="seg_0"/>
-   <object objectType="Hierarchy relation" objectID="0FE31551-DD40-2786-CD2E-26A50F6704EE" name="Hierarchy_12" seqName="seg_0"/>
    <object objectType="Hierarchy relation" objectID="0DDEB0F2-A720-F746-376C-7904D9EB0AEB" name="Hierarchy_2" seqName="seg_0"/>
    <object objectType="Hierarchy relation" objectID="AC727C16-1EC6-D878-BC72-18C3FC57B294" name="Hierarchy_3" seqName="seg_0"/>
-   <object objectType="Hierarchy relation" objectID="C4E13BE8-9FB4-4F69-53E2-C0A9D77B582A" name="Hierarchy_4" seqName="seg_0"/>
    <object objectType="Hierarchy relation" objectID="D94F658C-B0B6-EEDB-BCDA-FA121A8CBCDB" name="Hierarchy_5" seqName="seg_0"/>
    <object objectType="Hierarchy relation" objectID="A36B4CA3-B17C-C3BA-17C2-DDA2B2C0FE5A" name="Hierarchy_6" seqName="seg_0"/>
    <object objectType="Hierarchy relation" objectID="7D93C2DA-100E-6932-E39B-7174CE417AF3" name="Hierarchy_7" seqName="seg_0"/>

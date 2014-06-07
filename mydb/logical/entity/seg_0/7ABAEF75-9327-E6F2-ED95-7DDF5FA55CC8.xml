@@ -57,6 +57,32 @@
 <logicalDatatype>LOGDT037</logicalDatatype>
 <dataTypeSize>50</dataTypeSize>
 </Attribute>
+<Attribute name="budynek" id="0041DAA7-3E5C-4DB0-B19B-29BABFD94720">
+<createdBy>michalpiekarski</createdBy>
+<createdTime>2014-06-07 20:13:58 UTC</createdTime>
+<ownerDesignName>mydb</ownerDesignName>
+<engineerTo>
+<item key="136F9923-63F1-B7A4-4720-9751BF44BCCB" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+</Attribute>
+<Attribute name="numer" id="94CDEFED-C0A5-601A-87FE-1579C25634F5">
+<createdBy>michalpiekarski</createdBy>
+<createdTime>2014-06-07 20:13:29 UTC</createdTime>
+<ownerDesignName>mydb</ownerDesignName>
+<engineerTo>
+<item key="136F9923-63F1-B7A4-4720-9751BF44BCCB" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="E35692EE-605B-166C-1429-58DC771330C5" name="obiekt_pk">
