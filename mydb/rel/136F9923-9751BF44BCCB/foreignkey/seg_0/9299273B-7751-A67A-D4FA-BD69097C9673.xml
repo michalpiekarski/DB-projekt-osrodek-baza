@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="9299273B-7751-A67A-D4FA-BD69097C9673" name="FK_ASS_221">
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="9299273B-7751-A67A-D4FA-BD69097C9673" name="IDDomku">
 <createdBy>michalpiekarski</createdBy>
 <createdTime>2014-06-07 17:22:29 UTC</createdTime>
 <generatorID>681A2709-D021-97AC-16AC-1DDA62E7489A</generatorID>

@@ -17,7 +17,7 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="OSRODKI_nazwa" id="47561DC7-D3CB-814F-8413-479F14B6AC80">
+<Column name="osrodek" id="47561DC7-D3CB-814F-8413-479F14B6AC80">
 <createdBy>michalpiekarski</createdBy>
 <createdTime>2014-06-07 17:22:29 UTC</createdTime>
 <generatorID>B4A2C89A-AA5D-0F11-7FAA-0A6A82DAEC69</generatorID>
@@ -33,7 +33,7 @@
 <colAssociation fkAssociation="C0DDB27C-37DC-8724-7FC6-14624C2B0993" referredColumn="48F475A8-549A-B385-BA2F-D8EC47BA1A0E"/>
 </associations>
 </Column>
-<Column name="TYPY_OBIEKTOW_nazwa" id="C3EE0204-5F7C-C6D0-7178-5585B3D40CC8">
+<Column name="typ" id="C3EE0204-5F7C-C6D0-7178-5585B3D40CC8">
 <createdBy>michalpiekarski</createdBy>
 <createdTime>2014-06-07 17:22:29 UTC</createdTime>
 <generatorID>08316789-2410-2A1C-AFF9-2EB590DE6CDF</generatorID>
@@ -63,7 +63,7 @@
 <colUsage columnID="6F21B911-D898-3259-AE78-42831712E903"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="B2DFE45C-A8C2-B74D-06BC-FA74F5ABAF33" name="OBIEKTY_OSRODKI_FK">
+<ind_PK_UK id="B2DFE45C-A8C2-B74D-06BC-FA74F5ABAF33" name="OsrodekObiektu">
 <createdBy>michalpiekarski</createdBy>
 <createdTime>2014-06-07 17:22:29 UTC</createdTime>
 <generatorID>4E71A995-A2BE-1009-F075-E8C38B6A12EC</generatorID>
@@ -74,7 +74,7 @@
 <colUsage columnID="47561DC7-D3CB-814F-8413-479F14B6AC80"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="83E75F76-07C2-86DF-1D85-C6BED9094838" name="OBIEKTY_TYPY_OBIEKTOW_FK">
+<ind_PK_UK id="83E75F76-07C2-86DF-1D85-C6BED9094838" name="TypObiektu">
 <createdBy>michalpiekarski</createdBy>
 <createdTime>2014-06-07 17:22:29 UTC</createdTime>
 <generatorID>24C76B5A-7A23-E8D9-6288-F5D7D21E2F65</generatorID>

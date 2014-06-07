@@ -18,24 +18,24 @@
    <object objectType="Table" objectID="D228A883-69B6-B3CA-C033-A1E8AAEC0249" name="ZAMOWIENIA_POSILKOW" seqName="seg_0"/>
    <object objectType="Table" objectID="AC7C0CE1-4E2B-47CE-4C53-C7DC4A31F141" name="ZAMOWIENIA_USLUG" seqName="seg_0"/>
    <object objectType="Table" objectID="8A68251D-3E77-499F-1468-8C632B5A5CE5" name="ZAMOWIENIA_WYPOZYCZEN" seqName="seg_0"/>
-   <object objectType="FKIndexAssociation" objectID="2EAA2397-E10A-7A86-4D4D-FB159C435576" name="FK_ASS_220" seqName="seg_0"/>
-   <object objectType="FKIndexAssociation" objectID="9299273B-7751-A67A-D4FA-BD69097C9673" name="FK_ASS_221" seqName="seg_0"/>
-   <object objectType="FKIndexAssociation" objectID="215A7D31-5BD3-0A20-6A92-02394C3C5A64" name="FK_ASS_222" seqName="seg_0"/>
-   <object objectType="FKIndexAssociation" objectID="44516519-CF6D-0E4A-3CB7-B9F16680F864" name="FK_ASS_223" seqName="seg_0"/>
-   <object objectType="FKIndexAssociation" objectID="E1095267-74D7-B947-EAF5-F71431DE76B5" name="FK_ASS_224" seqName="seg_0"/>
-   <object objectType="FKIndexAssociation" objectID="30898E70-FD07-796A-E3E7-C1DED329F280" name="FK_ASS_225" seqName="seg_0"/>
-   <object objectType="FKIndexAssociation" objectID="C0DDB27C-37DC-8724-7FC6-14624C2B0993" name="OBIEKTY_OSRODKI_FK" seqName="seg_0"/>
-   <object objectType="FKIndexAssociation" objectID="4C49C914-37C2-FCC6-5D43-32688ACEFF10" name="OBIEKTY_TYPY_OBIEKTOW_FK" seqName="seg_0"/>
-   <object objectType="FKIndexAssociation" objectID="5DD55D16-1FF4-F1E4-E0AA-8B14E616A860" name="PRACOWNICY_OSRODKI_FK" seqName="seg_0"/>
-   <object objectType="FKIndexAssociation" objectID="AB7D6D0B-5973-B02A-552A-D8386E997A19" name="PRACOWNICY_STANOWISKA_FK" seqName="seg_0"/>
-   <object objectType="FKIndexAssociation" objectID="1DBEDFE4-E986-0D9B-8223-F688697B692C" name="RACHUNKI_KLIENCI_FK" seqName="seg_0"/>
-   <object objectType="FKIndexAssociation" objectID="6B7E8EA2-64AC-FD29-2B7E-22A1666EBB6B" name="RACHUNKI_PRACOWNICY_FK" seqName="seg_0"/>
-   <object objectType="FKIndexAssociation" objectID="2A771168-3CC0-EC7D-30D3-4D52996E10FD" name="REZERWACJE_OBIEKTY_FK" seqName="seg_0"/>
-   <object objectType="FKIndexAssociation" objectID="0E8EDD56-A304-81E1-300A-78917971554A" name="REZERWACJE_RACHUNKI_FK" seqName="seg_0"/>
-   <object objectType="FKIndexAssociation" objectID="D16933D0-CD05-9CC6-28AC-6A0FD30B12A0" name="ZAMOWIENIA_POSILKOW_POSILKI_FK" seqName="seg_0"/>
-   <object objectType="FKIndexAssociation" objectID="FEEDD6BB-7F6E-5611-4134-4EC17CBC92D0" name="ZAMOWIENIA_RACHUNKI_FK" seqName="seg_0"/>
-   <object objectType="FKIndexAssociation" objectID="996C9FC2-F5F4-3540-0F22-050C1134132E" name="ZAMOWIENIA_USLUG_USLUGI_FK" seqName="seg_0"/>
-   <object objectType="FKIndexAssociation" objectID="9CD7DC78-A2AD-2653-9918-D02AA716D290" name="ZAMOWIENIA_WYPOZYCZEN_WYPOZYCZENIA_FK" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="2EAA2397-E10A-7A86-4D4D-FB159C435576" name="IDInnegoObiektu" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="9299273B-7751-A67A-D4FA-BD69097C9673" name="IDDomku" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="215A7D31-5BD3-0A20-6A92-02394C3C5A64" name="IDPokoju" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="44516519-CF6D-0E4A-3CB7-B9F16680F864" name="IDZamowieniaUslugi" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="E1095267-74D7-B947-EAF5-F71431DE76B5" name="IDZamowieniaPosilku" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="30898E70-FD07-796A-E3E7-C1DED329F280" name="IDZamowieniaWypozyczenia" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="C0DDB27C-37DC-8724-7FC6-14624C2B0993" name="OsrodekObiektu" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="4C49C914-37C2-FCC6-5D43-32688ACEFF10" name="TypObiektu" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="5DD55D16-1FF4-F1E4-E0AA-8B14E616A860" name="OsrodekPracownika" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="AB7D6D0B-5973-B02A-552A-D8386E997A19" name="StanowiskoPracownika" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="1DBEDFE4-E986-0D9B-8223-F688697B692C" name="KlientRachunku" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="6B7E8EA2-64AC-FD29-2B7E-22A1666EBB6B" name="PracownikRachunku" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="2A771168-3CC0-EC7D-30D3-4D52996E10FD" name="ObiektRezerwacji" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="0E8EDD56-A304-81E1-300A-78917971554A" name="RachunekRezerwacji" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="D16933D0-CD05-9CC6-28AC-6A0FD30B12A0" name="TypZamowieniaPosilku" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="FEEDD6BB-7F6E-5611-4134-4EC17CBC92D0" name="RachunekZamowienia" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="996C9FC2-F5F4-3540-0F22-050C1134132E" name="TypZamowieniaUslugi" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="9CD7DC78-A2AD-2653-9918-D02AA716D290" name="TypZamowieniaWypozyczenia" seqName="seg_0"/>
    <object objectType="FKArc" objectID="D56D6050-38E1-709E-2C37-9E3C14B0B651" name="FKArc_30" seqName="seg_0"/>
    <object objectType="FKArc" objectID="6AF9D6D7-186B-983C-8052-52C0C9CC109D" name="FKArc_31" seqName="seg_0"/>
 </oracle.dbtools.crest.model.design.relational.RelationalDesign>

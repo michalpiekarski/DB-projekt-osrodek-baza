@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="9CD7DC78-A2AD-2653-9918-D02AA716D290" name="ZAMOWIENIA_WYPOZYCZEN_WYPOZYCZENIA_FK">
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="9CD7DC78-A2AD-2653-9918-D02AA716D290" name="TypZamowieniaWypozyczenia">
 <createdBy>michalpiekarski</createdBy>
 <createdTime>2014-06-07 17:22:29 UTC</createdTime>
 <generatorID>E12FFB77-5ADB-2439-8DFB-5A04494B795B</generatorID>

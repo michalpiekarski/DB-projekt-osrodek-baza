@@ -17,7 +17,7 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="RACHUNKI_id" id="04F8C86F-12D7-503C-F1B4-E5F96A4CBC50">
+<Column name="rachunek" id="04F8C86F-12D7-503C-F1B4-E5F96A4CBC50">
 <createdBy>michalpiekarski</createdBy>
 <createdTime>2014-06-07 17:22:29 UTC</createdTime>
 <generatorID>E38C847A-514E-FEE1-8037-D7FBA61735EF</generatorID>
@@ -57,7 +57,7 @@
 <colUsage columnID="4DA57D8C-F945-22B6-85D7-861D43577D2C"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="E54992E7-E412-BD72-72D1-988197D48625" name="ZAMOWIENIA_RACHUNKI_FK">
+<ind_PK_UK id="E54992E7-E412-BD72-72D1-988197D48625" name="RachunekZamowienia">
 <createdBy>michalpiekarski</createdBy>
 <createdTime>2014-06-07 17:22:29 UTC</createdTime>
 <generatorID>899FEAD8-CFCE-7D2E-CC2D-2C05FD862CDF</generatorID>

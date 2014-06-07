@@ -17,7 +17,7 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="RACHUNKI_id" id="29BEF339-C79B-2784-CCF8-240389C03E19">
+<Column name="rachunek" id="29BEF339-C79B-2784-CCF8-240389C03E19">
 <createdBy>michalpiekarski</createdBy>
 <createdTime>2014-06-07 17:22:29 UTC</createdTime>
 <generatorID>71E9AD45-299A-B843-63F9-A4BB26799E16</generatorID>
@@ -32,7 +32,7 @@
 <colAssociation fkAssociation="0E8EDD56-A304-81E1-300A-78917971554A" referredColumn="1612D8BD-F8D9-67F9-87BE-893A16E1CF02"/>
 </associations>
 </Column>
-<Column name="OBIEKTY_id" id="396916A5-52EA-5B92-9DE4-08823ED3C237">
+<Column name="obiekt" id="396916A5-52EA-5B92-9DE4-08823ED3C237">
 <createdBy>michalpiekarski</createdBy>
 <createdTime>2014-06-07 17:22:29 UTC</createdTime>
 <generatorID>4AE25226-9E3A-D1F6-5DEC-CF3DC4AF39D2</generatorID>
@@ -81,7 +81,7 @@
 <colUsage columnID="24522A5E-4039-604F-5024-0FF8ADC4A669"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="772FB204-4BBF-A703-F112-5A2F15D247CD" name="REZERWACJE_RACHUNKI_FK">
+<ind_PK_UK id="772FB204-4BBF-A703-F112-5A2F15D247CD" name="RachunekRezerwacji">
 <createdBy>michalpiekarski</createdBy>
 <createdTime>2014-06-07 17:22:29 UTC</createdTime>
 <generatorID>97DF31CB-A023-9099-F6BE-17EA5608082C</generatorID>
@@ -92,7 +92,7 @@
 <colUsage columnID="29BEF339-C79B-2784-CCF8-240389C03E19"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="753019F1-CB85-0D10-913C-9183B07EBFDA" name="REZERWACJE_OBIEKTY_FK">
+<ind_PK_UK id="753019F1-CB85-0D10-913C-9183B07EBFDA" name="ObiektRezerwacji">
 <createdBy>michalpiekarski</createdBy>
 <createdTime>2014-06-07 17:22:29 UTC</createdTime>
 <generatorID>FC3EDDA7-44B6-473C-0743-DA86BED5F111</generatorID>

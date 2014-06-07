@@ -21,7 +21,7 @@
 <colAssociation fkAssociation="44516519-CF6D-0E4A-3CB7-B9F16680F864" referredColumn="4DA57D8C-F945-22B6-85D7-861D43577D2C"/>
 </associations>
 </Column>
-<Column name="USLUGI_nazwa" id="923AA625-7337-73B4-9D99-690E7EA9C3D2">
+<Column name="typ" id="923AA625-7337-73B4-9D99-690E7EA9C3D2">
 <createdBy>michalpiekarski</createdBy>
 <createdTime>2014-06-07 17:22:29 UTC</createdTime>
 <generatorID>3CAAE8BC-ACC8-DA05-0768-05A0483100C9</generatorID>
@@ -61,7 +61,7 @@
 <colUsage columnID="5D55C705-B023-82A0-D486-6B3183FAE686"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="46E6BA91-6E65-CE82-DDAD-E632559F3EFA" name="FK_ASS_223">
+<ind_PK_UK id="46E6BA91-6E65-CE82-DDAD-E632559F3EFA" name="IDZamowieniaUslugi">
 <createdBy>michalpiekarski</createdBy>
 <createdTime>2014-06-07 17:22:29 UTC</createdTime>
 <generatorID>0DDEB0F2-A720-F746-376C-7904D9EB0AEB</generatorID>
@@ -72,7 +72,7 @@
 <colUsage columnID="5D55C705-B023-82A0-D486-6B3183FAE686"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="B602A817-D916-0A49-0E37-B08B3FC24F17" name="ZAMOWIENIA_USLUG_USLUGI_FK">
+<ind_PK_UK id="B602A817-D916-0A49-0E37-B08B3FC24F17" name="TypZamowieniaUslugi">
 <createdBy>michalpiekarski</createdBy>
 <createdTime>2014-06-07 17:22:29 UTC</createdTime>
 <generatorID>047A1F02-3F69-5ED8-A192-B0A8AF2C1B1D</generatorID>

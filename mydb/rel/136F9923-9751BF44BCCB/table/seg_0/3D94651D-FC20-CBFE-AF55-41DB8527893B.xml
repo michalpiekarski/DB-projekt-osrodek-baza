@@ -17,7 +17,7 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="KLIENCI_id" id="8D958910-A880-2630-0E43-21D9464D2AF0">
+<Column name="klient" id="8D958910-A880-2630-0E43-21D9464D2AF0">
 <createdBy>michalpiekarski</createdBy>
 <createdTime>2014-06-07 17:22:29 UTC</createdTime>
 <generatorID>3940E4C5-8732-322D-E5B3-FC0A45BE790B</generatorID>
@@ -32,7 +32,7 @@
 <colAssociation fkAssociation="1DBEDFE4-E986-0D9B-8223-F688697B692C" referredColumn="27D3938E-4FDB-B246-4597-8697A1CC9FFA"/>
 </associations>
 </Column>
-<Column name="PRACOWNICY_id" id="8D729527-7AC0-837A-94C1-E4D710E44380">
+<Column name="pracownik" id="8D729527-7AC0-837A-94C1-E4D710E44380">
 <createdBy>michalpiekarski</createdBy>
 <createdTime>2014-06-07 17:22:29 UTC</createdTime>
 <generatorID>7BC0644A-DF6D-D94A-AAF1-BB2C67995333</generatorID>
@@ -84,7 +84,7 @@
 <colUsage columnID="1612D8BD-F8D9-67F9-87BE-893A16E1CF02"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="CA485473-87A9-12F2-A9C9-9014AD88E2E3" name="RACHUNKI_KLIENCI_FK">
+<ind_PK_UK id="CA485473-87A9-12F2-A9C9-9014AD88E2E3" name="KlientRachunku">
 <createdBy>michalpiekarski</createdBy>
 <createdTime>2014-06-07 17:22:29 UTC</createdTime>
 <generatorID>CB31ACAB-DBDC-EF1E-2616-D687A4886F02</generatorID>
@@ -95,7 +95,7 @@
 <colUsage columnID="8D958910-A880-2630-0E43-21D9464D2AF0"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="A3EB806B-76F6-87B7-0477-4D0F4E26AEF4" name="RACHUNKI_PRACOWNICY_FK">
+<ind_PK_UK id="A3EB806B-76F6-87B7-0477-4D0F4E26AEF4" name="PracownikRachunku">
 <createdBy>michalpiekarski</createdBy>
 <createdTime>2014-06-07 17:22:29 UTC</createdTime>
 <generatorID>67D16841-32AE-2995-64A1-C29C02275550</generatorID>

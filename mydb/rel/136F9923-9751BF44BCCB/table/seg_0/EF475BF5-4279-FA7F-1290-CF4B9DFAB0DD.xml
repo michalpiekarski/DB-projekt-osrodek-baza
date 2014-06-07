@@ -46,7 +46,7 @@
 <colUsage columnID="9119A264-F0DA-812B-BF2E-EDB82BDD8B9D"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="BB03335D-7A54-0C58-79F9-246896CD81F9" name="FK_ASS_221">
+<ind_PK_UK id="BB03335D-7A54-0C58-79F9-246896CD81F9" name="IDDomku">
 <createdBy>michalpiekarski</createdBy>
 <createdTime>2014-06-07 17:22:29 UTC</createdTime>
 <generatorID>681A2709-D021-97AC-16AC-1DDA62E7489A</generatorID>

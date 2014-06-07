@@ -57,7 +57,7 @@
 <colUsage columnID="F94EC599-20B1-14A3-B000-72FA0A48A149"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="412070D7-6BEF-2647-1A72-76100169A9D9" name="FK_ASS_222">
+<ind_PK_UK id="412070D7-6BEF-2647-1A72-76100169A9D9" name="IDPokoju">
 <createdBy>michalpiekarski</createdBy>
 <createdTime>2014-06-07 17:22:29 UTC</createdTime>
 <generatorID>C4E13BE8-9FB4-4F69-53E2-C0A9D77B582A</generatorID>

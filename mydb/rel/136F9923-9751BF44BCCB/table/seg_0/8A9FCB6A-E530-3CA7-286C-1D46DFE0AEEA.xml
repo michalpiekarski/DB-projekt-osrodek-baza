@@ -110,7 +110,7 @@
 <defaultValue>NULL</defaultValue>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="STANOWISKA_nazwa" id="84749359-C1A5-0D5C-14EE-C048ABFED104">
+<Column name="stanowisko" id="84749359-C1A5-0D5C-14EE-C048ABFED104">
 <createdBy>michalpiekarski</createdBy>
 <createdTime>2014-06-07 17:22:29 UTC</createdTime>
 <generatorID>0A07FABB-B48C-CDBC-C692-AEE98D228802</generatorID>
@@ -139,7 +139,7 @@
 <dataTypeScale>2</dataTypeScale>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="OSRODKI_nazwa" id="F5F864B6-9A54-769E-24DB-BED4907F91E0">
+<Column name="osrodek" id="F5F864B6-9A54-769E-24DB-BED4907F91E0">
 <createdBy>michalpiekarski</createdBy>
 <createdTime>2014-06-07 17:22:29 UTC</createdTime>
 <generatorID>CD8451BC-D9D8-D802-163A-AC91E337918A</generatorID>
@@ -170,7 +170,7 @@
 <colUsage columnID="C0EA3115-0D72-F8BA-1835-5DFA321871A7"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="30D7DBFA-CB4D-2146-18EC-6A95D6102318" name="PRACOWNICY_OSRODKI_FK">
+<ind_PK_UK id="30D7DBFA-CB4D-2146-18EC-6A95D6102318" name="OsrodekPracownika">
 <createdBy>michalpiekarski</createdBy>
 <createdTime>2014-06-07 17:22:29 UTC</createdTime>
 <generatorID>9602B097-A5A6-AC93-8EA9-F7EC964F247C</generatorID>
@@ -181,7 +181,7 @@
 <colUsage columnID="F5F864B6-9A54-769E-24DB-BED4907F91E0"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="C7ACE9C1-B8C2-BE61-26EA-9F8921BD1792" name="PRACOWNICY_STANOWISKA_FK">
+<ind_PK_UK id="C7ACE9C1-B8C2-BE61-26EA-9F8921BD1792" name="StanowiskoPracownika">
 <createdBy>michalpiekarski</createdBy>
 <createdTime>2014-06-07 17:22:29 UTC</createdTime>
 <generatorID>CC676B2D-B677-C583-5E47-2E8182A73931</generatorID>
