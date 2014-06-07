@@ -4,9 +4,6 @@
 <createdTime>2014-05-15 20:35:03 UTC</createdTime>
 <generatorID>C991A9A4-7F34-02CC-5180-D7D2E8FF6437</generatorID>
 <ownerDesignName>mydb</ownerDesignName>
-<engineerTo>
-<item key="68AE232C-0844-9362-0F69-3CCDC29C4AD2" value="true"/>
-</engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
 <fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
@@ -22,9 +19,6 @@
 <createdTime>2014-05-15 20:35:03 UTC</createdTime>
 <generatorID>E6580E11-CF36-0326-B697-2F01BBAFA9B1</generatorID>
 <ownerDesignName>mydb</ownerDesignName>
-<engineerTo>
-<item key="68AE232C-0844-9362-0F69-3CCDC29C4AD2" value="true"/>
-</engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
@@ -34,9 +28,6 @@
 <createdTime>2014-05-15 20:35:03 UTC</createdTime>
 <generatorID>D704E23C-C6A0-1ADF-79A4-8476B0A13007</generatorID>
 <ownerDesignName>mydb</ownerDesignName>
-<engineerTo>
-<item key="68AE232C-0844-9362-0F69-3CCDC29C4AD2" value="true"/>
-</engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT037</logicalDatatype>
@@ -47,9 +38,6 @@
 <createdTime>2014-05-15 20:35:03 UTC</createdTime>
 <generatorID>82ED82F1-7E14-C38A-9615-315440336F26</generatorID>
 <ownerDesignName>mydb</ownerDesignName>
-<engineerTo>
-<item key="68AE232C-0844-9362-0F69-3CCDC29C4AD2" value="true"/>
-</engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT037</logicalDatatype>
@@ -60,9 +48,6 @@
 <createdTime>2014-05-15 20:35:03 UTC</createdTime>
 <generatorID>4C905D36-94D4-330F-A903-C4A26A262E1C</generatorID>
 <ownerDesignName>mydb</ownerDesignName>
-<engineerTo>
-<item key="68AE232C-0844-9362-0F69-3CCDC29C4AD2" value="true"/>
-</engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT037</logicalDatatype>
@@ -72,9 +57,6 @@
 <createdBy>michalpiekarski</createdBy>
 <createdTime>2014-06-06 14:09:47 UTC</createdTime>
 <ownerDesignName>mydb</ownerDesignName>
-<engineerTo>
-<item key="68AE232C-0844-9362-0F69-3CCDC29C4AD2" value="true"/>
-</engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -85,9 +67,6 @@
 <createdBy>michalpiekarski</createdBy>
 <createdTime>2014-06-06 14:10:27 UTC</createdTime>
 <ownerDesignName>mydb</ownerDesignName>
-<engineerTo>
-<item key="68AE232C-0844-9362-0F69-3CCDC29C4AD2" value="true"/>
-</engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT035</logicalDatatype>
@@ -97,9 +76,6 @@
 <createdBy>michalpiekarski</createdBy>
 <createdTime>2014-06-06 14:10:44 UTC</createdTime>
 <ownerDesignName>mydb</ownerDesignName>
-<engineerTo>
-<item key="68AE232C-0844-9362-0F69-3CCDC29C4AD2" value="true"/>
-</engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT037</logicalDatatype>
@@ -110,9 +86,6 @@
 <createdTime>2014-05-15 20:35:03 UTC</createdTime>
 <generatorID>833F7950-642A-8F62-5F83-5C762EC93237</generatorID>
 <ownerDesignName>mydb</ownerDesignName>
-<engineerTo>
-<item key="68AE232C-0844-9362-0F69-3CCDC29C4AD2" value="true"/>
-</engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -125,9 +98,6 @@
 <createdTime>2014-05-15 20:35:03 UTC</createdTime>
 <generatorID>5DC72071-9B28-32D4-3F91-2DB1A5262A2F</generatorID>
 <ownerDesignName>mydb</ownerDesignName>
-<engineerTo>
-<item key="68AE232C-0844-9362-0F69-3CCDC29C4AD2" value="true"/>
-</engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -135,28 +105,11 @@
 <dataTypeSize>100</dataTypeSize>
 <defaultValue>NULL</defaultValue>
 </Attribute>
-<Attribute name="osrodek" id="9AD6AD7B-4C60-01CE-4A91-2A6DC9A184A9">
-<createdBy>michalpiekarski</createdBy>
-<createdTime>2014-05-15 23:48:22 UTC</createdTime>
-<generatorID>9602B097-A5A6-AC93-8EA9-F7EC964F247C</generatorID>
-<ownerDesignName>mydb</ownerDesignName>
-<engineerTo>
-<item key="68AE232C-0844-9362-0F69-3CCDC29C4AD2" value="true"/>
-</engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<referedAttribute>BAC1D9CD-3EAC-9E43-00F8-182DDB012E26</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-</Attribute>
 <Attribute name="stanowisko" id="0A07FABB-B48C-CDBC-C692-AEE98D228802">
 <createdBy>michalpiekarski</createdBy>
 <createdTime>2014-05-15 23:45:21 UTC</createdTime>
 <generatorID>CC676B2D-B677-C583-5E47-2E8182A73931</generatorID>
 <ownerDesignName>mydb</ownerDesignName>
-<engineerTo>
-<item key="68AE232C-0844-9362-0F69-3CCDC29C4AD2" value="true"/>
-</engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <referedAttribute>0E79338F-8C25-1F99-049E-42CE9E6FA1E8</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
@@ -169,14 +122,23 @@
 <createdTime>2014-05-15 20:35:03 UTC</createdTime>
 <generatorID>846AECAE-9F59-8972-D22F-EDE82565DD17</generatorID>
 <ownerDesignName>mydb</ownerDesignName>
-<engineerTo>
-<item key="68AE232C-0844-9362-0F69-3CCDC29C4AD2" value="true"/>
-</engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT026</logicalDatatype>
 <dataTypePrecision>7</dataTypePrecision>
 <dataTypeScale>2</dataTypeScale>
+</Attribute>
+<Attribute name="OSRODEK_nazwa" id="CD8451BC-D9D8-D802-163A-AC91E337918A">
+<createdBy>michalpiekarski</createdBy>
+<createdTime>2014-06-07 16:31:01 UTC</createdTime>
+<generatorID>9602B097-A5A6-AC93-8EA9-F7EC964F247C</generatorID>
+<ownerDesignName>mydb</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>5AD4D474-7238-176B-5922-1C613E892847</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
@@ -185,9 +147,6 @@
 <createdTime>2014-05-15 20:35:03 UTC</createdTime>
 <generatorID>E05BD08F-3CD4-A722-DA52-462CA64D25F2</generatorID>
 <ownerDesignName>mydb</ownerDesignName>
-<engineerTo>
-<item key="68AE232C-0844-9362-0F69-3CCDC29C4AD2" value="true"/>
-</engineerTo>
 <pk>true</pk>
 <newElementsIDs>F85BA4D2-E2F4-F792-D55A-F1377F3B11C6</newElementsIDs>
 <usedAttributes>

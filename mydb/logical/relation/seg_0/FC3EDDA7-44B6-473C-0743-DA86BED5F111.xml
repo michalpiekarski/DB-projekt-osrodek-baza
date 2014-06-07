@@ -3,9 +3,6 @@
 <createdBy>michalpiekarski</createdBy>
 <createdTime>2014-05-21 18:11:59 UTC</createdTime>
 <ownerDesignName>mydb</ownerDesignName>
-<engineerTo>
-<item key="68AE232C-0844-9362-0F69-3CCDC29C4AD2" value="true"/>
-</engineerTo>
 <sourcePk>E35692EE-605B-166C-1429-58DC771330C5</sourcePk>
 <identifying>false</identifying>
 <nameOnSource>Jest zawarty w</nameOnSource>

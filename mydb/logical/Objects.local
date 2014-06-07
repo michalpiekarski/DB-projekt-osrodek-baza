@@ -10,9 +10,6 @@
    <object objectType="Entity" objectID="2650B27A-957C-B410-A236-74C1401DB41B" name="PRACOWNIK" seqName="seg_0"/>
    <object objectType="Entity" objectID="67CEAD0E-60F1-B9DA-1B1D-91C0C7B2984A" name="RACHUNEK" seqName="seg_0"/>
    <object objectType="Entity" objectID="44B6A3BD-831A-71A3-8FDE-E4F20EAA8605" name="REZERWACJA" seqName="seg_0"/>
-   <object objectType="Entity" objectID="AC8CE0F6-DC2B-1984-337A-B1645278C53C" name="REZERWACJA_DOMKU" seqName="seg_0"/>
-   <object objectType="Entity" objectID="22DABA29-CBBF-2D48-6803-CF1CDD26EB5B" name="REZERWACJA_INNEGO_OBIEKTU" seqName="seg_0"/>
-   <object objectType="Entity" objectID="94DA538D-E9E2-79B5-44E7-AA81A039A8CE" name="REZERWAJCA_POKOJU" seqName="seg_0"/>
    <object objectType="Entity" objectID="0F0F9DBE-8EDB-809C-996A-27AA92F393C3" name="STANOWISKO" seqName="seg_0"/>
    <object objectType="Entity" objectID="A3BCB0F4-D63B-FAF9-42A4-7A0AB6408A34" name="TYP_OBIEKTU" seqName="seg_0"/>
    <object objectType="Entity" objectID="9B3D4775-4A16-4E75-20F5-3148E5C45B62" name="TYP_ZAMOWIENIA" seqName="seg_0"/>
@@ -24,11 +21,11 @@
    <object objectType="Entity" objectID="824DFA04-A698-2882-1C38-0C683C4E22E0" name="ZAMOWIENIE_WYPOZYCZENIA" seqName="seg_0"/>
    <object objectType="Relation" objectID="4E71A995-A2BE-1009-F075-E8C38B6A12EC" name="OsrodekObiektu" seqName="seg_0"/>
    <object objectType="Relation" objectID="9602B097-A5A6-AC93-8EA9-F7EC964F247C" name="OsrodekPracownika" seqName="seg_0"/>
+   <object objectType="Relation" objectID="97DF31CB-A023-9099-F6BE-17EA5608082C" name="RachunekRezerwacji" seqName="seg_0"/>
    <object objectType="Relation" objectID="899FEAD8-CFCE-7D2E-CC2D-2C05FD862CDF" name="RachunekZamowienia" seqName="seg_0"/>
    <object objectType="Relation" objectID="CB31ACAB-DBDC-EF1E-2616-D687A4886F02" name="RachunkiKlienta" seqName="seg_0"/>
    <object objectType="Relation" objectID="67D16841-32AE-2995-64A1-C29C02275550" name="RachunkiPracownika" seqName="seg_0"/>
    <object objectType="Relation" objectID="FC3EDDA7-44B6-473C-0743-DA86BED5F111" name="RezerwacjaObiektu" seqName="seg_0"/>
-   <object objectType="Relation" objectID="97DF31CB-A023-9099-F6BE-17EA5608082C" name="RezerwacjeRachunku" seqName="seg_0"/>
    <object objectType="Relation" objectID="CC676B2D-B677-C583-5E47-2E8182A73931" name="StanowiskoPracownika" seqName="seg_0"/>
    <object objectType="Relation" objectID="24C76B5A-7A23-E8D9-6288-F5D7D21E2F65" name="TypObiektu" seqName="seg_0"/>
    <object objectType="Relation" objectID="C5CE20F4-C156-93ED-EEB0-1865AD9CE7C9" name="TypPosilku" seqName="seg_0"/>
@@ -37,13 +34,11 @@
    <object objectType="Hierarchy relation" objectID="F419C24B-ACBD-0A8B-6BD7-AB890CCD62A7" name="Hierarchy_1" seqName="seg_0"/>
    <object objectType="Hierarchy relation" objectID="681A2709-D021-97AC-16AC-1DDA62E7489A" name="Hierarchy_11" seqName="seg_0"/>
    <object objectType="Hierarchy relation" objectID="0FE31551-DD40-2786-CD2E-26A50F6704EE" name="Hierarchy_12" seqName="seg_0"/>
-   <object objectType="Hierarchy relation" objectID="D9EAD2A9-7383-20EF-E993-DBBC9A500F59" name="Hierarchy_13" seqName="seg_0"/>
-   <object objectType="Hierarchy relation" objectID="D25163CB-1F7C-5152-6B12-601B0CB5D4E3" name="Hierarchy_14" seqName="seg_0"/>
-   <object objectType="Hierarchy relation" objectID="8CE93CB9-9064-FBDD-D365-9618D68762AF" name="Hierarchy_15" seqName="seg_0"/>
    <object objectType="Hierarchy relation" objectID="0DDEB0F2-A720-F746-376C-7904D9EB0AEB" name="Hierarchy_2" seqName="seg_0"/>
    <object objectType="Hierarchy relation" objectID="AC727C16-1EC6-D878-BC72-18C3FC57B294" name="Hierarchy_3" seqName="seg_0"/>
    <object objectType="Hierarchy relation" objectID="C4E13BE8-9FB4-4F69-53E2-C0A9D77B582A" name="Hierarchy_4" seqName="seg_0"/>
    <object objectType="Hierarchy relation" objectID="D94F658C-B0B6-EEDB-BCDA-FA121A8CBCDB" name="Hierarchy_5" seqName="seg_0"/>
    <object objectType="Hierarchy relation" objectID="A36B4CA3-B17C-C3BA-17C2-DDA2B2C0FE5A" name="Hierarchy_6" seqName="seg_0"/>
    <object objectType="Hierarchy relation" objectID="7D93C2DA-100E-6932-E39B-7174CE417AF3" name="Hierarchy_7" seqName="seg_0"/>
+   <object objectType="Note" objectID="102DBFF5-A200-554A-EB4D-AD92B76B39C3" name="Note_1" seqName="seg_0"/>
 </oracle.dbtools.crest.model.design.logical.LogicalDesign>

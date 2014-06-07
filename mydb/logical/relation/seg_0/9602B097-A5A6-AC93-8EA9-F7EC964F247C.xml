@@ -4,9 +4,6 @@
 <createdTime>2014-05-15 20:35:03 UTC</createdTime>
 <generatorID>42C481CB-E0C1-5FB4-39E6-D4023E978154</generatorID>
 <ownerDesignName>mydb</ownerDesignName>
-<engineerTo>
-<item key="68AE232C-0844-9362-0F69-3CCDC29C4AD2" value="true"/>
-</engineerTo>
 <sourcePk>885E6719-2DE9-E6B6-0AF2-6167C77EDACB</sourcePk>
 <targetPk>76508FEC-5752-A434-A258-211A50F3475E</targetPk>
 <identifying>false</identifying>

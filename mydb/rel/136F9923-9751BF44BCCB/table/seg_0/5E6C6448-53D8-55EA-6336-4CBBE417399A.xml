@@ -1,0 +1,61 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5E6C6448-53D8-55EA-6336-4CBBE417399A" name="DOMKI">
+<createdBy>michalpiekarski</createdBy>
+<createdTime>2014-06-07 16:58:14 UTC</createdTime>
+<generatorID>76B6EDE9-5378-3DF0-14D3-1AED9E47C8E9</generatorID>
+<ownerDesignName>mydb</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="1597F4F2-CF15-A793-242C-850F63464D4D">
+<createdBy>michalpiekarski</createdBy>
+<createdTime>2014-06-07 16:58:14 UTC</createdTime>
+<generatorID>ACC35FC4-7E49-4D28-A0A8-865591FB992C</generatorID>
+<ownerDesignName>mydb</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<delegate>BDC4BA7F-BB39-5548-B619-CA0B8B180598</delegate>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="616B5767-5E3A-F0D4-8794-9ACF7D2F01F4" referredColumn="BDC4BA7F-BB39-5548-B619-CA0B8B180598"/>
+</associations>
+</Column>
+<Column name="numer" id="0E544A12-E708-8976-1D48-08F617035768">
+<createdBy>michalpiekarski</createdBy>
+<createdTime>2014-06-07 16:58:14 UTC</createdTime>
+<generatorID>4C91E3BF-6DEA-E9AE-48B4-FFE17D810C3B</generatorID>
+<ownerDesignName>mydb</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="AC997B10-B031-76AC-541C-95B99588828B" name="DOMKI_PK">
+<createdBy>michalpiekarski</createdBy>
+<createdTime>2014-06-07 16:58:14 UTC</createdTime>
+<generatorID>E35692EE-605B-166C-1429-58DC771330C5</generatorID>
+<ownerDesignName>mydb</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1597F4F2-CF15-A793-242C-850F63464D4D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CB11A331-1BD6-61A5-0EFB-8E0435CBBA68" name="FK_ASS_186">
+<createdBy>michalpiekarski</createdBy>
+<createdTime>2014-06-07 16:58:14 UTC</createdTime>
+<generatorID>681A2709-D021-97AC-16AC-1DDA62E7489A</generatorID>
+<ownerDesignName>mydb</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1597F4F2-CF15-A793-242C-850F63464D4D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

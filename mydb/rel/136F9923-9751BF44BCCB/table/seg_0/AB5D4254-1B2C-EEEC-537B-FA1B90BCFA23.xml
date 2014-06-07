@@ -1,0 +1,107 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="AB5D4254-1B2C-EEEC-537B-FA1B90BCFA23" name="REZERWACJE">
+<createdBy>michalpiekarski</createdBy>
+<createdTime>2014-06-07 16:58:14 UTC</createdTime>
+<generatorID>44B6A3BD-831A-71A3-8FDE-E4F20EAA8605</generatorID>
+<ownerDesignName>mydb</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="3799C847-06F0-EDCE-5733-624369AFB850">
+<createdBy>michalpiekarski</createdBy>
+<createdTime>2014-06-07 16:58:14 UTC</createdTime>
+<generatorID>98F7466F-7AD0-928F-76E8-78F183122F14</generatorID>
+<ownerDesignName>mydb</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="RACHUNKI_id" id="4F2F312E-2654-BD73-7B65-DB71F4BE4622">
+<createdBy>michalpiekarski</createdBy>
+<createdTime>2014-06-07 16:58:14 UTC</createdTime>
+<generatorID>71E9AD45-299A-B843-63F9-A4BB26799E16</generatorID>
+<ownerDesignName>mydb</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<delegate>A369E0CD-07C1-AC93-D965-663610569418</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="71E70CCA-2109-2EA4-CF6B-17C17B846D05" referredColumn="A369E0CD-07C1-AC93-D965-663610569418"/>
+</associations>
+</Column>
+<Column name="OBIEKTY_id" id="ADF1B802-EF41-5976-7B7D-84C7204E0AD3">
+<createdBy>michalpiekarski</createdBy>
+<createdTime>2014-06-07 16:58:14 UTC</createdTime>
+<generatorID>4AE25226-9E3A-D1F6-5DEC-CF3DC4AF39D2</generatorID>
+<ownerDesignName>mydb</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<delegate>BDC4BA7F-BB39-5548-B619-CA0B8B180598</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5FEB218E-A759-B6C7-1ACB-9EC36447E541" referredColumn="BDC4BA7F-BB39-5548-B619-CA0B8B180598"/>
+</associations>
+</Column>
+<Column name="data_od" id="692CCD67-A54E-E3A7-32D8-36D73EE831CF">
+<createdBy>michalpiekarski</createdBy>
+<createdTime>2014-06-07 16:58:14 UTC</createdTime>
+<generatorID>F5D9BA29-CFA3-316D-5AE7-0DD2E3C7ACD5</generatorID>
+<ownerDesignName>mydb</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="data_do" id="8FCED44A-2546-0141-7AD0-B4028DECED82">
+<createdBy>michalpiekarski</createdBy>
+<createdTime>2014-06-07 16:58:14 UTC</createdTime>
+<generatorID>2946C4EB-1E98-1E86-C7C3-EF6AAEA405CF</generatorID>
+<ownerDesignName>mydb</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="FE2BA256-8474-1F8D-D653-451224C8AC25" name="REZERWACJE_PK">
+<createdBy>michalpiekarski</createdBy>
+<createdTime>2014-06-07 16:58:14 UTC</createdTime>
+<generatorID>4AED81C9-8EC3-2BA5-FB81-451BEC244AE6</generatorID>
+<ownerDesignName>mydb</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3799C847-06F0-EDCE-5733-624369AFB850"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="380DEB76-CEA3-D3D5-A329-9F0F5C07B3A7" name="REZERWACJE_RACHUNKI_FK">
+<createdBy>michalpiekarski</createdBy>
+<createdTime>2014-06-07 16:58:14 UTC</createdTime>
+<generatorID>97DF31CB-A023-9099-F6BE-17EA5608082C</generatorID>
+<ownerDesignName>mydb</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4F2F312E-2654-BD73-7B65-DB71F4BE4622"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CFC104B4-2548-A28F-A918-9FE695EFC506" name="REZERWACJE_OBIEKTY_FK">
+<createdBy>michalpiekarski</createdBy>
+<createdTime>2014-06-07 16:58:14 UTC</createdTime>
+<generatorID>FC3EDDA7-44B6-473C-0743-DA86BED5F111</generatorID>
+<ownerDesignName>mydb</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="ADF1B802-EF41-5976-7B7D-84C7204E0AD3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

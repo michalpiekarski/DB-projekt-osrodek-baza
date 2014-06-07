@@ -1,0 +1,89 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="837AA06B-C03A-FA8B-C11B-FAD9D19AE1F2" name="OBIEKTY">
+<createdBy>michalpiekarski</createdBy>
+<createdTime>2014-06-07 16:58:14 UTC</createdTime>
+<generatorID>7ABAEF75-9327-E6F2-ED95-7DDF5FA55CC8</generatorID>
+<ownerDesignName>mydb</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="BDC4BA7F-BB39-5548-B619-CA0B8B180598">
+<createdBy>michalpiekarski</createdBy>
+<createdTime>2014-06-07 16:58:14 UTC</createdTime>
+<generatorID>ACC35FC4-7E49-4D28-A0A8-865591FB992C</generatorID>
+<ownerDesignName>mydb</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="OSRODKI_nazwa" id="BBEF66A4-8175-66F2-A736-BF499562600F">
+<createdBy>michalpiekarski</createdBy>
+<createdTime>2014-06-07 16:58:14 UTC</createdTime>
+<generatorID>B4A2C89A-AA5D-0F11-7FAA-0A6A82DAEC69</generatorID>
+<ownerDesignName>mydb</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<delegate>73E4EABC-EFF2-B69F-23FC-3313F1888C42</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A13C87BE-8736-D843-352A-5D2F26DD9453" referredColumn="73E4EABC-EFF2-B69F-23FC-3313F1888C42"/>
+</associations>
+</Column>
+<Column name="TYPY_OBIEKTOW_nazwa" id="3F6AF50D-1B32-BA42-BA5B-AFC36930B441">
+<createdBy>michalpiekarski</createdBy>
+<createdTime>2014-06-07 16:58:14 UTC</createdTime>
+<generatorID>08316789-2410-2A1C-AFF9-2EB590DE6CDF</generatorID>
+<ownerDesignName>mydb</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<delegate>FC28A61C-2D8C-0A3F-CCA6-7F04ADF0F8FD</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3735AFBB-1E74-C15E-FDCC-1E8957F3C9D8" referredColumn="FC28A61C-2D8C-0A3F-CCA6-7F04ADF0F8FD"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="01213B9E-DEF8-D135-488D-F0B5357D3A67" name="OBIEKTY_PK">
+<createdBy>michalpiekarski</createdBy>
+<createdTime>2014-06-07 16:58:14 UTC</createdTime>
+<generatorID>E35692EE-605B-166C-1429-58DC771330C5</generatorID>
+<ownerDesignName>mydb</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BDC4BA7F-BB39-5548-B619-CA0B8B180598"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8023FF09-6BC3-22E3-FF0E-96ABFC05A350" name="OBIEKTY_OSRODKI_FK">
+<createdBy>michalpiekarski</createdBy>
+<createdTime>2014-06-07 16:58:14 UTC</createdTime>
+<generatorID>4E71A995-A2BE-1009-F075-E8C38B6A12EC</generatorID>
+<ownerDesignName>mydb</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BBEF66A4-8175-66F2-A736-BF499562600F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="58F80F48-C446-2F4E-3D4B-A3EBA55CDFA0" name="OBIEKTY_TYPY_OBIEKTOW_FK">
+<createdBy>michalpiekarski</createdBy>
+<createdTime>2014-06-07 16:58:14 UTC</createdTime>
+<generatorID>24C76B5A-7A23-E8D9-6288-F5D7D21E2F65</generatorID>
+<ownerDesignName>mydb</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3F6AF50D-1B32-BA42-BA5B-AFC36930B441"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

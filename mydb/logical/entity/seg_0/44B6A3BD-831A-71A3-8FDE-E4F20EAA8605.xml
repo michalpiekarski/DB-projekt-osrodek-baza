@@ -5,7 +5,7 @@
 <generatorID>F301023B-6DFE-EE59-89EA-6B4EB5C2A509</generatorID>
 <ownerDesignName>mydb</ownerDesignName>
 <engineerTo>
-<item key="68AE232C-0844-9362-0F69-3CCDC29C4AD2" value="true"/>
+<item key="136F9923-63F1-B7A4-4720-9751BF44BCCB" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -16,6 +16,7 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <preferredAbbreviation>REZERWACJE</preferredAbbreviation>
+<subtypesRefType>None</subtypesRefType>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
 <Attribute name="id" id="98F7466F-7AD0-928F-76E8-78F183122F14">
 <createdBy>michalpiekarski</createdBy>
@@ -23,7 +24,7 @@
 <generatorID>C29BCE6E-3BBC-EB21-CE57-9CCAD739E1CB</generatorID>
 <ownerDesignName>mydb</ownerDesignName>
 <engineerTo>
-<item key="68AE232C-0844-9362-0F69-3CCDC29C4AD2" value="true"/>
+<item key="136F9923-63F1-B7A4-4720-9751BF44BCCB" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -35,7 +36,7 @@
 <generatorID>97DF31CB-A023-9099-F6BE-17EA5608082C</generatorID>
 <ownerDesignName>mydb</ownerDesignName>
 <engineerTo>
-<item key="68AE232C-0844-9362-0F69-3CCDC29C4AD2" value="true"/>
+<item key="136F9923-63F1-B7A4-4720-9751BF44BCCB" value="true"/>
 </engineerTo>
 <referedAttribute>C7A9A2B7-CA75-8A07-77B9-FA416174697B</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
@@ -48,7 +49,7 @@
 <generatorID>FC3EDDA7-44B6-473C-0743-DA86BED5F111</generatorID>
 <ownerDesignName>mydb</ownerDesignName>
 <engineerTo>
-<item key="68AE232C-0844-9362-0F69-3CCDC29C4AD2" value="true"/>
+<item key="136F9923-63F1-B7A4-4720-9751BF44BCCB" value="true"/>
 </engineerTo>
 <referedAttribute>ACC35FC4-7E49-4D28-A0A8-865591FB992C</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
@@ -61,7 +62,7 @@
 <generatorID>38AA785D-6F20-7722-9CE0-5EDE914D0D59</generatorID>
 <ownerDesignName>mydb</ownerDesignName>
 <engineerTo>
-<item key="68AE232C-0844-9362-0F69-3CCDC29C4AD2" value="true"/>
+<item key="136F9923-63F1-B7A4-4720-9751BF44BCCB" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -73,7 +74,7 @@
 <generatorID>E29C257A-6C87-C2D3-CE48-45659839AB2F</generatorID>
 <ownerDesignName>mydb</ownerDesignName>
 <engineerTo>
-<item key="68AE232C-0844-9362-0F69-3CCDC29C4AD2" value="true"/>
+<item key="136F9923-63F1-B7A4-4720-9751BF44BCCB" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -87,7 +88,7 @@
 <generatorID>CEFFC94A-9DFD-BEF5-7922-C96773F25736</generatorID>
 <ownerDesignName>mydb</ownerDesignName>
 <engineerTo>
-<item key="68AE232C-0844-9362-0F69-3CCDC29C4AD2" value="true"/>
+<item key="136F9923-63F1-B7A4-4720-9751BF44BCCB" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <newElementsIDs>98F7466F-7AD0-928F-76E8-78F183122F14</newElementsIDs>

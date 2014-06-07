@@ -3,9 +3,6 @@
 <createdBy>michalpiekarski</createdBy>
 <createdTime>2014-06-06 14:24:48 UTC</createdTime>
 <ownerDesignName>mydb</ownerDesignName>
-<engineerTo>
-<item key="68AE232C-0844-9362-0F69-3CCDC29C4AD2" value="true"/>
-</engineerTo>
 <targetTransferable>false</targetTransferable>
 <sourcePk>C7BB3660-1DCC-8092-2B56-515D117BC657</sourcePk>
 <identifying>false</identifying>
