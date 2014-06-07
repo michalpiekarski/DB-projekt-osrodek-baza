@@ -1,0 +1,110 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3D94651D-FC20-CBFE-AF55-41DB8527893B" name="RACHUNKI">
+<createdBy>michalpiekarski</createdBy>
+<createdTime>2014-06-07 17:22:29 UTC</createdTime>
+<generatorID>67CEAD0E-60F1-B9DA-1B1D-91C0C7B2984A</generatorID>
+<ownerDesignName>mydb</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="1612D8BD-F8D9-67F9-87BE-893A16E1CF02">
+<createdBy>michalpiekarski</createdBy>
+<createdTime>2014-06-07 17:22:29 UTC</createdTime>
+<generatorID>C7A9A2B7-CA75-8A07-77B9-FA416174697B</generatorID>
+<ownerDesignName>mydb</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="KLIENCI_id" id="8D958910-A880-2630-0E43-21D9464D2AF0">
+<createdBy>michalpiekarski</createdBy>
+<createdTime>2014-06-07 17:22:29 UTC</createdTime>
+<generatorID>3940E4C5-8732-322D-E5B3-FC0A45BE790B</generatorID>
+<ownerDesignName>mydb</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<delegate>27D3938E-4FDB-B246-4597-8697A1CC9FFA</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1DBEDFE4-E986-0D9B-8223-F688697B692C" referredColumn="27D3938E-4FDB-B246-4597-8697A1CC9FFA"/>
+</associations>
+</Column>
+<Column name="PRACOWNICY_id" id="8D729527-7AC0-837A-94C1-E4D710E44380">
+<createdBy>michalpiekarski</createdBy>
+<createdTime>2014-06-07 17:22:29 UTC</createdTime>
+<generatorID>7BC0644A-DF6D-D94A-AAF1-BB2C67995333</generatorID>
+<ownerDesignName>mydb</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<delegate>C0EA3115-0D72-F8BA-1835-5DFA321871A7</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6B7E8EA2-64AC-FD29-2B7E-22A1666EBB6B" referredColumn="C0EA3115-0D72-F8BA-1835-5DFA321871A7"/>
+</associations>
+</Column>
+<Column name="kwota" id="268D8A69-1F56-0DF5-A980-E1DA3ABA8D17">
+<createdBy>michalpiekarski</createdBy>
+<createdTime>2014-06-07 17:22:29 UTC</createdTime>
+<generatorID>AF4A61C1-F145-4854-7494-0453C1A19C2A</generatorID>
+<ownerDesignName>mydb</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="zaplacony" id="9470D9C4-DDD8-D940-8227-3A2F66579204">
+<createdBy>michalpiekarski</createdBy>
+<createdTime>2014-06-07 17:22:29 UTC</createdTime>
+<generatorID>3A9525AF-4975-2CBA-7387-669E92377404</generatorID>
+<ownerDesignName>mydb</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="AE002E61-2F96-3548-6667-A30900630DBD" name="RACHUNKI_PK">
+<createdBy>michalpiekarski</createdBy>
+<createdTime>2014-06-07 17:22:29 UTC</createdTime>
+<generatorID>C40796BE-F0EC-7845-DF88-5B8E1612F610</generatorID>
+<ownerDesignName>mydb</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1612D8BD-F8D9-67F9-87BE-893A16E1CF02"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CA485473-87A9-12F2-A9C9-9014AD88E2E3" name="RACHUNKI_KLIENCI_FK">
+<createdBy>michalpiekarski</createdBy>
+<createdTime>2014-06-07 17:22:29 UTC</createdTime>
+<generatorID>CB31ACAB-DBDC-EF1E-2616-D687A4886F02</generatorID>
+<ownerDesignName>mydb</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8D958910-A880-2630-0E43-21D9464D2AF0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A3EB806B-76F6-87B7-0477-4D0F4E26AEF4" name="RACHUNKI_PRACOWNICY_FK">
+<createdBy>michalpiekarski</createdBy>
+<createdTime>2014-06-07 17:22:29 UTC</createdTime>
+<generatorID>67D16841-32AE-2995-64A1-C29C02275550</generatorID>
+<ownerDesignName>mydb</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8D729527-7AC0-837A-94C1-E4D710E44380"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

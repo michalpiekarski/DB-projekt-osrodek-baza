@@ -1,0 +1,59 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C7A79234-B41C-9F3D-7747-3B2028B1782A" name="TYPY_OBIEKTOW">
+<createdBy>michalpiekarski</createdBy>
+<createdTime>2014-06-07 17:22:29 UTC</createdTime>
+<generatorID>A3BCB0F4-D63B-FAF9-42A4-7A0AB6408A34</generatorID>
+<ownerDesignName>mydb</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="nazwa" id="54F22FAC-6245-58AF-8E85-AFCE368E86AB">
+<createdBy>michalpiekarski</createdBy>
+<createdTime>2014-06-07 17:22:29 UTC</createdTime>
+<generatorID>28CC6702-7A6B-C4D2-DC08-2E5539A7D39C</generatorID>
+<ownerDesignName>mydb</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ilosc_miejsc" id="734572B6-E8FF-0700-9ED4-68313AE51A27">
+<createdBy>michalpiekarski</createdBy>
+<createdTime>2014-06-07 17:22:29 UTC</createdTime>
+<generatorID>9B663A01-2E2A-415C-81B8-57B50C840FBA</generatorID>
+<ownerDesignName>mydb</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT018</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cena" id="40B94ECE-B81D-8668-1049-15608E5BB288">
+<createdBy>michalpiekarski</createdBy>
+<createdTime>2014-06-07 17:22:29 UTC</createdTime>
+<generatorID>EC86E31D-B69B-96E7-2166-F5FA3DE7F8FE</generatorID>
+<ownerDesignName>mydb</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="325C51D2-A19B-0275-2E3D-9FCACC9745BD" name="TYPY_OBIEKTOW_PK">
+<createdBy>michalpiekarski</createdBy>
+<createdTime>2014-06-07 17:22:29 UTC</createdTime>
+<generatorID>C7BB3660-1DCC-8092-2B56-515D117BC657</generatorID>
+<ownerDesignName>mydb</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="54F22FAC-6245-58AF-8E85-AFCE368E86AB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

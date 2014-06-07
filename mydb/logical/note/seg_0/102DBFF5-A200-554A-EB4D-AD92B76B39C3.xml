@@ -2,7 +2,7 @@
 <Note class="oracle.dbtools.crest.model.design.Note" name="Note_1" directorySegmentName="seg_0" id="102DBFF5-A200-554A-EB4D-AD92B76B39C3">
 <createdBy>michalpiekarski</createdBy>
 <createdTime>2014-06-07 16:52:17 UTC</createdTime>
-<comment>Dla pewności ustawiać przed każdym przebudowaniem do modelu relacyjnego.&lt;br/&gt;&lt;br/&gt;Parametry Subtypes:&lt;br/&gt;&lt;br/&gt;    ZAMOWIENIE:&lt;br/&gt;        Subtree generation: Table per child&lt;br/&gt;        References: Identifying&lt;br/&gt;&lt;br/&gt;    TYP_ZAMOWIENIA:&lt;br/&gt;        Subtree generation: Table per child&lt;br/&gt;        References: Identifying&lt;br/&gt;&lt;br/&gt;    OBIEKT:&lt;br/&gt;        Subtree generation: Table per each entity&lt;br/&gt;        References: Identifying</comment>
+<comment>Dla pewności ustawiać przed każdym przebudowaniem do modelu relacyjnego.&lt;br/&gt;&lt;br/&gt;Parametry Subtypes:&lt;br/&gt;&lt;br/&gt;    ZAMOWIENIE:&lt;br/&gt;        Subtree generation: Table per each entity&lt;br/&gt;        References: Identifying&lt;br/&gt;&lt;br/&gt;    TYP_ZAMOWIENIA:&lt;br/&gt;        Subtree generation: Table per child&lt;br/&gt;        References: Identifying&lt;br/&gt;&lt;br/&gt;    OBIEKT:&lt;br/&gt;        Subtree generation: Table per each entity&lt;br/&gt;        References: Identifying</comment>
 <ownerDesignName>mydb</ownerDesignName>
 <engineerTo>
 <item key="136F9923-63F1-B7A4-4720-9751BF44BCCB" value="true"/>

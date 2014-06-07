@@ -1,0 +1,128 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BC80CD79-C8EF-163A-9765-EF83F45EC3C9" name="KLIENCI">
+<createdBy>michalpiekarski</createdBy>
+<createdTime>2014-06-07 17:22:29 UTC</createdTime>
+<generatorID>9EB3A79A-E61E-4753-CB5A-22DBF6957332</generatorID>
+<ownerDesignName>mydb</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="27D3938E-4FDB-B246-4597-8697A1CC9FFA">
+<createdBy>michalpiekarski</createdBy>
+<createdTime>2014-06-07 17:22:29 UTC</createdTime>
+<generatorID>51E95209-461A-CC7B-3AC0-353DD3933DAC</generatorID>
+<ownerDesignName>mydb</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="imie" id="A45E5B75-773A-E3A3-0393-5FB880FDC4CD">
+<createdBy>michalpiekarski</createdBy>
+<createdTime>2014-06-07 17:22:29 UTC</createdTime>
+<generatorID>72DE5188-4157-A77A-10EF-009DE82E81E2</generatorID>
+<ownerDesignName>mydb</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nazwisko" id="2F2527CC-6C58-D7D1-9AD8-D3237190F070">
+<createdBy>michalpiekarski</createdBy>
+<createdTime>2014-06-07 17:22:29 UTC</createdTime>
+<generatorID>977B5CA9-DE4F-E8D9-3837-2B098F53A50D</generatorID>
+<ownerDesignName>mydb</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ulica" id="7142F06F-79AF-84CC-691E-E84C1E4FCD17">
+<createdBy>michalpiekarski</createdBy>
+<createdTime>2014-06-07 17:22:29 UTC</createdTime>
+<generatorID>EC2B5CF6-15ED-B950-DAE1-844C8085FB49</generatorID>
+<ownerDesignName>mydb</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="mieszkanie" id="D3E59D97-73F9-800C-D41B-E00195680160">
+<createdBy>michalpiekarski</createdBy>
+<createdTime>2014-06-07 17:22:29 UTC</createdTime>
+<generatorID>D55D0086-8911-D16B-21C9-432512D88CD7</generatorID>
+<ownerDesignName>mydb</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="kod_pocztowy" id="A3DD92BD-8D52-05C8-9E32-AAB04910AB17">
+<createdBy>michalpiekarski</createdBy>
+<createdTime>2014-06-07 17:22:29 UTC</createdTime>
+<generatorID>02D70E2A-1CE7-EEC4-24BC-1396C089EBF5</generatorID>
+<ownerDesignName>mydb</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT035</logicalDatatype>
+<dataTypeSize>6</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="miasto" id="34AFE133-13EA-6681-FACF-FB3D10C29017">
+<createdBy>michalpiekarski</createdBy>
+<createdTime>2014-06-07 17:22:29 UTC</createdTime>
+<generatorID>BD959EF9-A583-03F1-840B-C749EB3D2D33</generatorID>
+<ownerDesignName>mydb</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="telefon" id="83B12C9E-EA2D-6A64-AED6-C848E65354FF">
+<createdBy>michalpiekarski</createdBy>
+<createdTime>2014-06-07 17:22:29 UTC</createdTime>
+<generatorID>D9BFB603-E250-0E8D-42DB-2315C011CBE6</generatorID>
+<ownerDesignName>mydb</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<defaultValue>NULL</defaultValue>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="email" id="87F5710B-2498-8577-497E-EFD81856E206">
+<createdBy>michalpiekarski</createdBy>
+<createdTime>2014-06-07 17:22:29 UTC</createdTime>
+<generatorID>F1986CBC-CD95-D991-9392-732321DFE21E</generatorID>
+<ownerDesignName>mydb</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<defaultValue>NULL</defaultValue>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2547F930-1DA8-9795-C488-742108635913" name="KLIENCI_PK">
+<createdBy>michalpiekarski</createdBy>
+<createdTime>2014-06-07 17:22:29 UTC</createdTime>
+<generatorID>E48BCF32-93DD-E912-0843-C396EED8B5A4</generatorID>
+<ownerDesignName>mydb</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="27D3938E-4FDB-B246-4597-8697A1CC9FFA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

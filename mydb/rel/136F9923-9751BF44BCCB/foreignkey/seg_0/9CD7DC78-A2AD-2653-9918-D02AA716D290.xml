@@ -1,0 +1,14 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="9CD7DC78-A2AD-2653-9918-D02AA716D290" name="ZAMOWIENIA_WYPOZYCZEN_WYPOZYCZENIA_FK">
+<createdBy>michalpiekarski</createdBy>
+<createdTime>2014-06-07 17:22:29 UTC</createdTime>
+<generatorID>E12FFB77-5ADB-2439-8DFB-5A04494B795B</generatorID>
+<ownerDesignName>mydb</ownerDesignName>
+<containerWithKeyObject>8A68251D-3E77-499F-1468-8C632B5A5CE5</containerWithKeyObject>
+<deleteRule>NO ACTION</deleteRule>
+<localFKIndex>1EAA67E0-F1FC-1F51-3024-F9B14B366DE3</localFKIndex>
+<keyObject>0CA2CDF5-D3C8-90B2-1488-DC6609B18B6E</keyObject>
+<mandatory>true</mandatory>
+<transferable>true</transferable>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
