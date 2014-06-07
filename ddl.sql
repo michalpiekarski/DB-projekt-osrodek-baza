@@ -46,7 +46,7 @@ CREATE TABLE OSRODKI
     miasto NVARCHAR2 (50) NOT NULL ,
     telefon NVARCHAR2 (15) ,
     email NVARCHAR2 (100) ,
-    otwarty CHAR (1) DEFAULT '0 COMMENT ''Czy osrodek jest otwarty?''' NOT NULL
+    otwarty CHAR (1) DEFAULT 0 NOT NULL
   ) ;
 ALTER TABLE OSRODKI ADD CONSTRAINT OSRODKI_PK PRIMARY KEY ( nazwa ) ;
 
