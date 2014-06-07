@@ -56,33 +56,33 @@ Insert into TOMEK.DOMKI (ID,NUMER) values (1,2);
 Insert into TOMEK.OBIEKTY (ID,OSRODEK,TYP) values (2,'Piêkna Laguna','Œredni domek');
 Insert into TOMEK.DOMKI (ID,NUMER) values (2,3);
 Insert into TOMEK.OBIEKTY (ID,OSRODEK,TYP) values (3,'Piêkna Laguna','Œredni domek');
-Insert into TOMEK.DOMKI (ID,NUMER) values (4,4);
-Insert into TOMEK.OBIEKTY (ID,OSRODEK,TYP) values (5,'Piêkna Laguna','Œredni domek');
-Insert into TOMEK.DOMKI (ID,NUMER) values (5,5);
-Insert into TOMEK.OBIEKTY (ID,OSRODEK,TYP) values (6,'Piêkna Laguna','Du¿y domek');
-Insert into TOMEK.DOMKI (ID,NUMER) values (7,6);
+Insert into TOMEK.DOMKI (ID,NUMER) values (3,4);
+Insert into TOMEK.OBIEKTY (ID,OSRODEK,TYP) values (4,'Piêkna Laguna','Œredni domek');
+Insert into TOMEK.DOMKI (ID,NUMER) values (4,5);
+Insert into TOMEK.OBIEKTY (ID,OSRODEK,TYP) values (5,'Piêkna Laguna','Du¿y domek');
+Insert into TOMEK.DOMKI (ID,NUMER) values (5,6);
 
 /* OBIEKTY - POKOJE */
+Insert into TOMEK.OBIEKTY (ID,OSRODEK,TYP) values (6,'Piêkna Laguna','Maly pokój');
+Insert into TOMEK.POKOJE (ID,NUMER,BUDYNEK) values (6,1,1);
 Insert into TOMEK.OBIEKTY (ID,OSRODEK,TYP) values (7,'Piêkna Laguna','Maly pokój');
-Insert into TOMEK.POKOJE (ID,NUMER,BUDYNEK) values (7,1,1);
+Insert into TOMEK.POKOJE (ID,NUMER,BUDYNEK) values (7,2,1);
 Insert into TOMEK.OBIEKTY (ID,OSRODEK,TYP) values (8,'Piêkna Laguna','Maly pokój');
-Insert into TOMEK.POKOJE (ID,NUMER,BUDYNEK) values (8,2,1);
-Insert into TOMEK.OBIEKTY (ID,OSRODEK,TYP) values (9,'Piêkna Laguna','Maly pokój');
-Insert into TOMEK.POKOJE (ID,NUMER,BUDYNEK) values (9,3,1);
+Insert into TOMEK.POKOJE (ID,NUMER,BUDYNEK) values (8,3,1);
+Insert into TOMEK.OBIEKTY (ID,OSRODEK,TYP) values (9,'Piêkna Laguna','Œredni pokój');
+Insert into TOMEK.POKOJE (ID,NUMER,BUDYNEK) values (9,4,1);
 Insert into TOMEK.OBIEKTY (ID,OSRODEK,TYP) values (10,'Piêkna Laguna','Œredni pokój');
-Insert into TOMEK.POKOJE (ID,NUMER,BUDYNEK) values (10,4,1);
-Insert into TOMEK.OBIEKTY (ID,OSRODEK,TYP) values (11,'Piêkna Laguna','Œredni pokój');
-Insert into TOMEK.POKOJE (ID,NUMER,BUDYNEK) values (11,5,1);
-Insert into TOMEK.OBIEKTY (ID,OSRODEK,TYP) values (12,'Piêkna Laguna','Du¿y pokój');
-Insert into TOMEK.POKOJE (ID,NUMER,BUDYNEK) values (12,6,1);
+Insert into TOMEK.POKOJE (ID,NUMER,BUDYNEK) values (10,5,1);
+Insert into TOMEK.OBIEKTY (ID,OSRODEK,TYP) values (11,'Piêkna Laguna','Du¿y pokój');
+Insert into TOMEK.POKOJE (ID,NUMER,BUDYNEK) values (11,6,1);
 
 /* OBIEKTY - INNE OBIEKTY */
+Insert into TOMEK.OBIEKTY (ID,OSRODEK,TYP) values (12,'Piêkna Laguna','Kort tenisowy');
+Insert into TOMEK.INNE_OBIEKTY (ID) values (12);
 Insert into TOMEK.OBIEKTY (ID,OSRODEK,TYP) values (13,'Piêkna Laguna','Kort tenisowy');
 Insert into TOMEK.INNE_OBIEKTY (ID) values (13);
-Insert into TOMEK.OBIEKTY (ID,OSRODEK,TYP) values (14,'Piêkna Laguna','Kort tenisowy');
+Insert into TOMEK.OBIEKTY (ID,OSRODEK,TYP) values (14,'Piêkna Laguna','Sauna');
 Insert into TOMEK.INNE_OBIEKTY (ID) values (14);
-Insert into TOMEK.OBIEKTY (ID,OSRODEK,TYP) values (15,'Piêkna Laguna','Sauna');
-Insert into TOMEK.INNE_OBIEKTY (ID) values (15);
 
 /* REZERWACJE */
 Insert into TOMEK.REZERWACJE (ID,RACHUNEK,OBIEKT,DATA_OD,DATA_DO) values (0,0,0,to_date('2014/06/21','RRRR/MM/DD'),to_date('2014/06/30','RRRR/MM/DD'));
