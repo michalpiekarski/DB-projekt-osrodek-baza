@@ -4,11 +4,11 @@ Insert into TOMEK.KLIENCI (ID,IMIE,NAZWISKO,ULICA,MIESZKANIE,KOD_POCZTOWY,MIASTO
 Insert into TOMEK.KLIENCI (ID,IMIE,NAZWISKO,ULICA,MIESZKANIE,KOD_POCZTOWY,MIASTO,TELEFON,EMAIL) values (2,'Jan','Wszolek','al. Taczaka 3','3','55-777','Poznañ','123-456-789',null);
 
 /* OSRODKI */
-Insert into TOMEK.OSRODKI (ID,NAZWA,ULICA,KOD_POCZTOWY,MISTO,TELEFON,EMAIL,OTWARTY) values (0,'Piêkna Laguna','ul. Klonowa 17','00-000','Kolobrzeg','000-000-000',null,'1');
-Insert into TOMEK.OSRODKI (ID,NAZWA,ULICA,KOD_POCZTOWY,MISTO,TELEFON,EMAIL,OTWARTY) values (1,'Dêbowy Dwór','ul. Mataja 38','11-111','Œlêcin','111-111-111',null,'0');
-Insert into TOMEK.OSRODKI (ID,NAZWA,ULICA,KOD_POCZTOWY,MISTO,TELEFON,EMAIL,OTWARTY) values (2,'Góralski Zajazd','al. U Szczytu 125','22-222','Szklarnik','222-222-222',null,'0');
-Insert into TOMEK.OSRODKI (ID,NAZWA,ULICA,KOD_POCZTOWY,MISTO,TELEFON,EMAIL,OTWARTY) values (3,'Nilowa Zatoka','ul. Nilowa 5','33-333','KaŸmie¿','333-333-333',null,'0');
-Insert into TOMEK.OSRODKI (ID,NAZWA,ULICA,KOD_POCZTOWY,MISTO,TELEFON,EMAIL,OTWARTY) values (4,'Osikowy Kolek','ul. Matalaja 28','44-444','Niebodzin','444-444-444',null,'0');
+Insert into TOMEK.OSRODKI (NAZWA,ULICA,KOD_POCZTOWY,MIASTO,TELEFON,EMAIL,OTWARTY) values ('Piêkna Laguna','ul. Klonowa 17','00-000','Kolobrzeg','000-000-000',null,'1');
+Insert into TOMEK.OSRODKI (NAZWA,ULICA,KOD_POCZTOWY,MIASTO,TELEFON,EMAIL,OTWARTY) values ('Dêbowy Dwór','ul. Mataja 38','11-111','Œlêcin','111-111-111',null,'0');
+Insert into TOMEK.OSRODKI (NAZWA,ULICA,KOD_POCZTOWY,MIASTO,TELEFON,EMAIL,OTWARTY) values ('Góralski Zajazd','al. U Szczytu 125','22-222','Szklarnik','222-222-222',null,'0');
+Insert into TOMEK.OSRODKI (NAZWA,ULICA,KOD_POCZTOWY,MIASTO,TELEFON,EMAIL,OTWARTY) values ('Nilowa Zatoka','ul. Nilowa 5','33-333','KaŸmie¿','333-333-333',null,'0');
+Insert into TOMEK.OSRODKI (NAZWA,ULICA,KOD_POCZTOWY,MIASTO,TELEFON,EMAIL,OTWARTY) values ('Osikowy Kolek','ul. Matalaja 28','44-444','Niebodzin','444-444-444',null,'0');
 
 /* STANOWISKA */
 Insert into TOMEK.STANOWISKA (NAZWA,PLACA_OD,PLACA_DO) values ('Sprz¹tacz',100.0,800.0);
@@ -22,13 +22,13 @@ Insert into TOMEK.STANOWISKA (NAZWA,PLACA_OD,PLACA_DO) values ('Recepcjonista',1
 Insert into TOMEK.STANOWISKA (NAZWA,PLACA_OD,PLACA_DO) values ('Recepcjonistka',150.0,1000.0);
 
 /* PRACOWNICY */
-Insert into TOMEK.PRACOWNICY (ID,IMIE,NAZIWSKO,ULICA,MIESZKANIE,KOD_POCZTOWY,MIASTO,TELEFON,EMAIL,STANOWISKO,PLACA,OSRODEK) values (0,'Jan','Kowalski','os. Paszczakow 4','43','03-555','Molodowów','222-555-222',null,'Technik',600.0,0);
-Insert into TOMEK.PRACOWNICY (ID,IMIE,NAZIWSKO,ULICA,MIESZKANIE,KOD_POCZTOWY,MIASTO,TELEFON,EMAIL,STANOWISKO,PLACA,OSRODEK) values (1,'Robert','Kowalski','os. Paszczakow 4','42','03-555','Molodowów','222-555-555',null,'Technik',600.0,0);
-Insert into TOMEK.PRACOWNICY (ID,IMIE,NAZIWSKO,ULICA,MIESZKANIE,KOD_POCZTOWY,MIASTO,TELEFON,EMAIL,STANOWISKO,PLACA,OSRODEK) values (2,'Joanna','Kowalska','os. Paszczakow 4','43','03-555','Molodowów','222-555-222',null,'Sprz¹taczka',400.0,0);
-Insert into TOMEK.PRACOWNICY (ID,IMIE,NAZIWSKO,ULICA,MIESZKANIE,KOD_POCZTOWY,MIASTO,TELEFON,EMAIL,STANOWISKO,PLACA,OSRODEK) values (3,'Gustaw','Nowak','ul. Klonowa 12',null,'55-555','Roztoczno','333-555-333',null,'Kucharz',1600.0,0);
-Insert into TOMEK.PRACOWNICY (ID,IMIE,NAZIWSKO,ULICA,MIESZKANIE,KOD_POCZTOWY,MIASTO,TELEFON,EMAIL,STANOWISKO,PLACA,OSRODEK) values (4,'Bartosz','Ostrowski','ul. Zielonka 123','2A','55-555','Roztoczno','333-555-555',null,'Trener',1100.0,0);
-Insert into TOMEK.PRACOWNICY (ID,IMIE,NAZIWSKO,ULICA,MIESZKANIE,KOD_POCZTOWY,MIASTO,TELEFON,EMAIL,STANOWISKO,PLACA,OSRODEK) values (5,'Karolina','Kowalska','os. Paszczakow 4','42','03-555','Molodowów','222-555-555',null,'Recepcjonistka',900.0,0);
-Insert into TOMEK.PRACOWNICY (ID,IMIE,NAZIWSKO,ULICA,MIESZKANIE,KOD_POCZTOWY,MIASTO,TELEFON,EMAIL,STANOWISKO,PLACA,OSRODEK) values (6,'Marcela','Ostrowska','ul. Zielonka 123','2A','55-555','Roztoczno','333-555-555',null,'Technik',850.0,0);
+Insert into TOMEK.PRACOWNICY (ID,IMIE,NAZWISKO,ULICA,MIESZKANIE,KOD_POCZTOWY,MIASTO,TELEFON,EMAIL,STANOWISKO,PLACA,OSRODEK) values (0,'Jan','Kowalski','os. Paszczakow 4','43','03-555','Molodowów','222-555-222',null,'Technik',600.0,'Piêkna Laguna');
+Insert into TOMEK.PRACOWNICY (ID,IMIE,NAZWISKO,ULICA,MIESZKANIE,KOD_POCZTOWY,MIASTO,TELEFON,EMAIL,STANOWISKO,PLACA,OSRODEK) values (1,'Robert','Kowalski','os. Paszczakow 4','42','03-555','Molodowów','222-555-555',null,'Technik',600.0,'Piêkna Laguna');
+Insert into TOMEK.PRACOWNICY (ID,IMIE,NAZWISKO,ULICA,MIESZKANIE,KOD_POCZTOWY,MIASTO,TELEFON,EMAIL,STANOWISKO,PLACA,OSRODEK) values (2,'Joanna','Kowalska','os. Paszczakow 4','43','03-555','Molodowów','222-555-222',null,'Sprz¹taczka',400.0,'Piêkna Laguna');
+Insert into TOMEK.PRACOWNICY (ID,IMIE,NAZWISKO,ULICA,MIESZKANIE,KOD_POCZTOWY,MIASTO,TELEFON,EMAIL,STANOWISKO,PLACA,OSRODEK) values (3,'Gustaw','Nowak','ul. Klonowa 12',null,'55-555','Roztoczno','333-555-333',null,'Kucharz',1600.0,'Piêkna Laguna');
+Insert into TOMEK.PRACOWNICY (ID,IMIE,NAZWISKO,ULICA,MIESZKANIE,KOD_POCZTOWY,MIASTO,TELEFON,EMAIL,STANOWISKO,PLACA,OSRODEK) values (4,'Bartosz','Ostrowski','ul. Zielonka 123','2A','55-555','Roztoczno','333-555-555',null,'Trener',1100.0,'Piêkna Laguna');
+Insert into TOMEK.PRACOWNICY (ID,IMIE,NAZWISKO,ULICA,MIESZKANIE,KOD_POCZTOWY,MIASTO,TELEFON,EMAIL,STANOWISKO,PLACA,OSRODEK) values (5,'Karolina','Kowalska','os. Paszczakow 4','42','03-555','Molodowów','222-555-555',null,'Recepcjonistka',900.0,'Piêkna Laguna');
+Insert into TOMEK.PRACOWNICY (ID,IMIE,NAZWISKO,ULICA,MIESZKANIE,KOD_POCZTOWY,MIASTO,TELEFON,EMAIL,STANOWISKO,PLACA,OSRODEK) values (6,'Marcela','Ostrowska','ul. Zielonka 123','2A','55-555','Roztoczno','333-555-555',null,'Technik',850.0,'Piêkna Laguna');
 
 /* RACHUNKI */
 Insert into TOMEK.RACHUNKI (ID,KLIENT,PRACOWNIK,ZAPLACONY,KWOTA) values (0,0,5,'0',1000.0);
@@ -49,39 +49,39 @@ Insert into TOMEK.TYPY_OBIEKTOW (NAZWA,ILOSC_MIEJSC,CENA) values ('Kort tenisowy
 Insert into TOMEK.TYPY_OBIEKTOW (NAZWA,ILOSC_MIEJSC,CENA) values ('Sauna',null,25.0);
 
 /* OBIEKTY - DOMKI */
-Insert into TOMEK.OBIEKTY (ID,OSRODEK) values (0,0,'Maly domek');
-Insert into TOMEK.DOMKI (ID,NUMER,TYP) values (0,1);
-Insert into TOMEK.OBIEKTY (ID,OSRODEK) values (1,0,'Maly domek');
-Insert into TOMEK.DOMKI (ID,NUMER,TYP) values (1,2);
-Insert into TOMEK.OBIEKTY (ID,OSRODEK) values (2,0,'Œredni domek');
-Insert into TOMEK.DOMKI (ID,NUMER,TYP) values (2,3);
-Insert into TOMEK.OBIEKTY (ID,OSRODEK) values (3,0,'Œredni domek');
-Insert into TOMEK.DOMKI (ID,NUMER,TYP) values (4,4);
-Insert into TOMEK.OBIEKTY (ID,OSRODEK) values (5,0,'Œredni domek');
-Insert into TOMEK.DOMKI (ID,NUMER,TYP) values (5,5);
-Insert into TOMEK.OBIEKTY (ID,OSRODEK) values (6,0,'Du¿y domek');
-Insert into TOMEK.DOMKI (ID,NUMER,TYP) values (7,6);
+Insert into TOMEK.OBIEKTY (ID,OSRODEK,TYP) values (0,'Piêkna Laguna','Maly domek');
+Insert into TOMEK.DOMKI (ID,NUMER) values (0,1);
+Insert into TOMEK.OBIEKTY (ID,OSRODEK,TYP) values (1,'Piêkna Laguna','Maly domek');
+Insert into TOMEK.DOMKI (ID,NUMER) values (1,2);
+Insert into TOMEK.OBIEKTY (ID,OSRODEK,TYP) values (2,'Piêkna Laguna','Œredni domek');
+Insert into TOMEK.DOMKI (ID,NUMER) values (2,3);
+Insert into TOMEK.OBIEKTY (ID,OSRODEK,TYP) values (3,'Piêkna Laguna','Œredni domek');
+Insert into TOMEK.DOMKI (ID,NUMER) values (4,4);
+Insert into TOMEK.OBIEKTY (ID,OSRODEK,TYP) values (5,'Piêkna Laguna','Œredni domek');
+Insert into TOMEK.DOMKI (ID,NUMER) values (5,5);
+Insert into TOMEK.OBIEKTY (ID,OSRODEK,TYP) values (6,'Piêkna Laguna','Du¿y domek');
+Insert into TOMEK.DOMKI (ID,NUMER) values (7,6);
 
 /* OBIEKTY - POKOJE */
-Insert into TOMEK.OBIEKTY (ID,OSRODEK) values (7,0,'Maly pokój');
-Insert into TOMEK.POKOJE (ID,NUMER,BUDYNEK,TYP) values (7,1,1);
-Insert into TOMEK.OBIEKTY (ID,OSRODEK) values (8,0,'Maly pokój');
-Insert into TOMEK.POKOJE (ID,NUMER,BUDYNEK,TYP) values (8,2,1);
-Insert into TOMEK.OBIEKTY (ID,OSRODEK) values (9,0,'Maly pokój');
-Insert into TOMEK.POKOJE (ID,NUMER,BUDYNEK,TYP) values (9,3,1);
-Insert into TOMEK.OBIEKTY (ID,OSRODEK) values (10,0,'Œredni pokój');
-Insert into TOMEK.POKOJE (ID,NUMER,BUDYNEK,TYP) values (10,4,1);
-Insert into TOMEK.OBIEKTY (ID,OSRODEK) values (11,0,'Œredni pokój');
-Insert into TOMEK.POKOJE (ID,NUMER,BUDYNEK,TYP) values (11,5,1);
-Insert into TOMEK.OBIEKTY (ID,OSRODEK) values (12,0,'Du¿y pokój');
-Insert into TOMEK.POKOJE (ID,NUMER,BUDYNEK,TYP) values (12,6,1);
+Insert into TOMEK.OBIEKTY (ID,OSRODEK,TYP) values (7,'Piêkna Laguna','Maly pokój');
+Insert into TOMEK.POKOJE (ID,NUMER,BUDYNEK) values (7,1,1);
+Insert into TOMEK.OBIEKTY (ID,OSRODEK,TYP) values (8,'Piêkna Laguna','Maly pokój');
+Insert into TOMEK.POKOJE (ID,NUMER,BUDYNEK) values (8,2,1);
+Insert into TOMEK.OBIEKTY (ID,OSRODEK,TYP) values (9,'Piêkna Laguna','Maly pokój');
+Insert into TOMEK.POKOJE (ID,NUMER,BUDYNEK) values (9,3,1);
+Insert into TOMEK.OBIEKTY (ID,OSRODEK,TYP) values (10,'Piêkna Laguna','Œredni pokój');
+Insert into TOMEK.POKOJE (ID,NUMER,BUDYNEK) values (10,4,1);
+Insert into TOMEK.OBIEKTY (ID,OSRODEK,TYP) values (11,'Piêkna Laguna','Œredni pokój');
+Insert into TOMEK.POKOJE (ID,NUMER,BUDYNEK) values (11,5,1);
+Insert into TOMEK.OBIEKTY (ID,OSRODEK,TYP) values (12,'Piêkna Laguna','Du¿y pokój');
+Insert into TOMEK.POKOJE (ID,NUMER,BUDYNEK) values (12,6,1);
 
 /* OBIEKTY - INNE OBIEKTY */
-Insert into TOMEK.OBIEKTY (ID,OSRODEK) values (13,0,'Kort tenisowy');
+Insert into TOMEK.OBIEKTY (ID,OSRODEK,TYP) values (13,'Piêkna Laguna','Kort tenisowy');
 Insert into TOMEK.INNE_OBIEKTY (ID) values (13);
-Insert into TOMEK.OBIEKTY (ID,OSRODEK) values (14,0,'Kort tenisowy');
+Insert into TOMEK.OBIEKTY (ID,OSRODEK,TYP) values (14,'Piêkna Laguna','Kort tenisowy');
 Insert into TOMEK.INNE_OBIEKTY (ID) values (14);
-Insert into TOMEK.OBIEKTY (ID,OSRODEK) values (15,0,'Sauna');
+Insert into TOMEK.OBIEKTY (ID,OSRODEK,TYP) values (15,'Piêkna Laguna','Sauna');
 Insert into TOMEK.INNE_OBIEKTY (ID) values (15);
 
 /* REZERWACJE */
