@@ -15,7 +15,13 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementGenerateAlways>true</autoIncrementGenerateAlways>
+<autoIncrementStartWith>0</autoIncrementStartWith>
 <autoIncrementCycle>false</autoIncrementCycle>
+<autoIncrementSequenceName>RezerwacjaID</autoIncrementSequenceName>
+<autoIncrementTriggerName>RezerwacjaID_AI</autoIncrementTriggerName>
 </Column>
 <Column name="rachunek" id="4E73F80B-7F82-C8F8-A335-2E03B9802E66">
 <createdBy>michalpiekarski</createdBy>

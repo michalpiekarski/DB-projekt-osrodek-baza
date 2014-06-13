@@ -15,7 +15,13 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementGenerateAlways>true</autoIncrementGenerateAlways>
+<autoIncrementStartWith>0</autoIncrementStartWith>
 <autoIncrementCycle>false</autoIncrementCycle>
+<autoIncrementSequenceName>RachunekID</autoIncrementSequenceName>
+<autoIncrementTriggerName>RachunekID_AI</autoIncrementTriggerName>
 </Column>
 <Column name="klient" id="39FC3A04-7C18-EFFA-876E-8C8D7757F08A">
 <createdBy>michalpiekarski</createdBy>
@@ -68,6 +74,8 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT006</logicalDatatype>
+<usesDefaultValue>true</usesDefaultValue>
+<defaultValue>0</defaultValue>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 </columns>

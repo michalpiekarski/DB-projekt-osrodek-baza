@@ -15,7 +15,13 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementGenerateAlways>true</autoIncrementGenerateAlways>
+<autoIncrementStartWith>0</autoIncrementStartWith>
 <autoIncrementCycle>false</autoIncrementCycle>
+<autoIncrementSequenceName>ZamowieniePosilkuID</autoIncrementSequenceName>
+<autoIncrementTriggerName>ZamowieniePosilkuID_AI</autoIncrementTriggerName>
 </Column>
 <Column name="rachunek" id="AED3391B-FD05-C109-3D00-C9293DF797FD">
 <createdBy>michalpiekarski</createdBy>

@@ -15,7 +15,13 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementGenerateAlways>true</autoIncrementGenerateAlways>
+<autoIncrementStartWith>0</autoIncrementStartWith>
 <autoIncrementCycle>false</autoIncrementCycle>
+<autoIncrementSequenceName>KlientID</autoIncrementSequenceName>
+<autoIncrementTriggerName>KlientID_AI</autoIncrementTriggerName>
 </Column>
 <Column name="imie" id="87576BB7-4D12-F6EC-276C-4526E9023DB3">
 <createdBy>michalpiekarski</createdBy>
@@ -60,6 +66,8 @@
 <use>1</use>
 <logicalDatatype>LOGDT037</logicalDatatype>
 <dataTypeSize>10</dataTypeSize>
+<usesDefaultValue>true</usesDefaultValue>
+<defaultValue>NULL</defaultValue>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="kod_pocztowy" id="02C4F74D-C890-6B53-8A68-08F4B84AE785">
@@ -94,6 +102,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT037</logicalDatatype>
 <dataTypeSize>15</dataTypeSize>
+<usesDefaultValue>true</usesDefaultValue>
 <defaultValue>NULL</defaultValue>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
@@ -107,6 +116,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT037</logicalDatatype>
 <dataTypeSize>100</dataTypeSize>
+<usesDefaultValue>true</usesDefaultValue>
 <defaultValue>NULL</defaultValue>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>

@@ -15,7 +15,13 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementGenerateAlways>true</autoIncrementGenerateAlways>
+<autoIncrementStartWith>0</autoIncrementStartWith>
 <autoIncrementCycle>false</autoIncrementCycle>
+<autoIncrementSequenceName>ObiektID</autoIncrementSequenceName>
+<autoIncrementTriggerName>ObiektID_AI</autoIncrementTriggerName>
 </Column>
 <Column name="osrodek" id="087ABE4B-1CA8-F92D-C19E-4D29B92AEC4F">
 <createdBy>michalpiekarski</createdBy>

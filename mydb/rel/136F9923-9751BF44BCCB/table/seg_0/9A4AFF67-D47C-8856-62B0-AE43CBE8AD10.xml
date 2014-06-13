@@ -61,6 +61,8 @@
 <use>1</use>
 <logicalDatatype>LOGDT037</logicalDatatype>
 <dataTypeSize>15</dataTypeSize>
+<usesDefaultValue>true</usesDefaultValue>
+<defaultValue>NULL</defaultValue>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="email" id="CD2DFEE6-53A1-7A23-6CB0-999D099B9B4A">
@@ -73,6 +75,8 @@
 <use>1</use>
 <logicalDatatype>LOGDT037</logicalDatatype>
 <dataTypeSize>100</dataTypeSize>
+<usesDefaultValue>true</usesDefaultValue>
+<defaultValue>NULL</defaultValue>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="otwarty" id="AE18D80D-39E3-3126-9A9F-3C5C19240EFF">
@@ -83,7 +87,8 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT006</logicalDatatype>
-<defaultValue>0 COMMENT &apos;Czy osrodek jest otwarty?&apos;</defaultValue>
+<usesDefaultValue>true</usesDefaultValue>
+<defaultValue>0</defaultValue>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 </columns>
