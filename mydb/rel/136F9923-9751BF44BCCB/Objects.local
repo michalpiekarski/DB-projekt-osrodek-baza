@@ -14,18 +14,18 @@
    <object objectType="Table" objectID="EBBB13B4-26F0-66E6-6A57-84756EF90DB5" name="ZAMOWIENIA_POSILKOW" seqName="seg_0"/>
    <object objectType="Table" objectID="672260FD-F199-9B04-D9C5-ACF1AD45866F" name="ZAMOWIENIA_USLUG" seqName="seg_0"/>
    <object objectType="Table" objectID="81155598-A7CF-9F5B-BECF-364DF3033520" name="ZAMOWIENIA_WYPOZYCZEN" seqName="seg_0"/>
-   <object objectType="FKIndexAssociation" objectID="F9A88D14-9F2B-9375-268B-1DC84661546E" name="OsrodekObiektu" seqName="seg_0"/>
-   <object objectType="FKIndexAssociation" objectID="CF26A663-03BB-C36F-A629-7106EAD6FFB8" name="TypObiektu" seqName="seg_0"/>
-   <object objectType="FKIndexAssociation" objectID="FC24B5A2-1455-AEA0-51B4-CEBCDF9E011F" name="OsrodekPracownika" seqName="seg_0"/>
-   <object objectType="FKIndexAssociation" objectID="3B8BFFE6-EA8E-982B-F93E-057D6A4C4004" name="StanowiskoPracownika" seqName="seg_0"/>
    <object objectType="FKIndexAssociation" objectID="EA540D02-2107-41E8-A00B-22D7C3BF9DF8" name="KlientRachunku" seqName="seg_0"/>
-   <object objectType="FKIndexAssociation" objectID="99188111-AFAD-1C17-763D-E43CA41C912D" name="PracownikRachunku" seqName="seg_0"/>
    <object objectType="FKIndexAssociation" objectID="5F790ADE-B6A8-FD2A-8A4D-160C14D4A4F3" name="ObiektRezerwacji" seqName="seg_0"/>
-   <object objectType="FKIndexAssociation" objectID="3F566F32-9443-5EAF-58D4-EBD0F182BA1F" name="RachunekRezerwacji" seqName="seg_0"/>
-   <object objectType="FKIndexAssociation" objectID="B8FA47EC-2707-BCE9-AF80-C0ADA29721AF" name="TypPosilku" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="F9A88D14-9F2B-9375-268B-1DC84661546E" name="OsrodekObiektu" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="FC24B5A2-1455-AEA0-51B4-CEBCDF9E011F" name="OsrodekPracownika" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="99188111-AFAD-1C17-763D-E43CA41C912D" name="PracownikRachunku" seqName="seg_0"/>
    <object objectType="FKIndexAssociation" objectID="7D959AE9-551C-EDB5-1F6F-729E99F7427A" name="RachunekPosilku" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="3F566F32-9443-5EAF-58D4-EBD0F182BA1F" name="RachunekRezerwacji" seqName="seg_0"/>
    <object objectType="FKIndexAssociation" objectID="9AC517DA-8C2A-AAA9-AECB-04F912372AF7" name="RachunekUslugi" seqName="seg_0"/>
-   <object objectType="FKIndexAssociation" objectID="6C5C1C9F-CE9F-5EC5-A37E-86AE919386FE" name="TypUslugi" seqName="seg_0"/>
    <object objectType="FKIndexAssociation" objectID="5FE7783D-DCE5-1455-0981-11F7889EAF8D" name="RachunekWypozyczenia" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="3B8BFFE6-EA8E-982B-F93E-057D6A4C4004" name="StanowiskoPracownika" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="CF26A663-03BB-C36F-A629-7106EAD6FFB8" name="TypObiektu" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="B8FA47EC-2707-BCE9-AF80-C0ADA29721AF" name="TypPosilku" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="6C5C1C9F-CE9F-5EC5-A37E-86AE919386FE" name="TypUslugi" seqName="seg_0"/>
    <object objectType="FKIndexAssociation" objectID="12CD4B27-647D-FABB-BD47-298ADBD19632" name="TypWypozyczenia" seqName="seg_0"/>
 </oracle.dbtools.crest.model.design.relational.RelationalDesign>

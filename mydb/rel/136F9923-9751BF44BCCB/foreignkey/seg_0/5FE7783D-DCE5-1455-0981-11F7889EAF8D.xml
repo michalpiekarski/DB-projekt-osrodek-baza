@@ -9,6 +9,6 @@
 <localFKIndex>951C4C29-637F-E4FE-8E61-71657186F25B</localFKIndex>
 <keyObject>BD02EC16-9305-79C6-7A3F-F7FB5B364C62</keyObject>
 <mandatory>true</mandatory>
-<transferable>false</transferable>
+<transferable>true</transferable>
 <columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
 </FKIndexAssociation>
