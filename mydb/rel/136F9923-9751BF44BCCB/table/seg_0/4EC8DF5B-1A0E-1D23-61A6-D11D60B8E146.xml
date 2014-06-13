@@ -18,6 +18,16 @@
 <dataTypeSize>50</dataTypeSize>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
+<Column name="kategoria" id="93E924BE-5890-2D54-ADF0-8297D22328C4">
+<createdBy>michalpiekarski</createdBy>
+<createdTime>2014-06-13 20:52:19 UTC</createdTime>
+<ownerDesignName>mydb</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>5</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
 <Column name="ilosc_miejsc" id="E3C797BF-4AD7-856A-8F09-7F0986FC7676">
 <createdBy>michalpiekarski</createdBy>
 <createdTime>2014-06-07 20:15:57 UTC</createdTime>

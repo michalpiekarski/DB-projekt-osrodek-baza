@@ -87,6 +87,18 @@
 <colUsage columnID="DB99402D-1E3C-7C39-F787-129984E91D6B"/>
 </indexColumnUsage>
 </ind_PK_UK>
+<ind_PK_UK id="4590F022-91D7-A9A1-0E72-E866D5CC854E" name="OsrodekBudynekNumer">
+<createdBy>michalpiekarski</createdBy>
+<createdTime>2014-06-13 20:40:45 UTC</createdTime>
+<ownerDesignName>mydb</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="087ABE4B-1CA8-F92D-C19E-4D29B92AEC4F"/>
+<colUsage columnID="8A844060-3988-FC9C-F595-D8054C86560B"/>
+<colUsage columnID="312CD0C1-B065-340A-CBD9-25371ED45FD1"/>
+</indexColumnUsage>
+</ind_PK_UK>
 <ind_PK_UK id="D99CF6E4-6E0B-A162-27CC-E37DC0B83CE8" name="OsrodekObiektu">
 <createdBy>michalpiekarski</createdBy>
 <createdTime>2014-06-07 20:15:57 UTC</createdTime>

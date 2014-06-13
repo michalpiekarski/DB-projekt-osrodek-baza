@@ -124,5 +124,20 @@
 <colUsage columnID="8F7A876C-86FC-D2DD-4B13-EB4F6AB8A82E"/>
 </indexColumnUsage>
 </ind_PK_UK>
+<ind_PK_UK id="EAF69EC2-F0E9-551E-6BE6-1B8995ECC8B5" name="ImieNazwiskoAdres">
+<createdBy>michalpiekarski</createdBy>
+<createdTime>2014-06-13 21:08:17 UTC</createdTime>
+<ownerDesignName>mydb</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="87576BB7-4D12-F6EC-276C-4526E9023DB3"/>
+<colUsage columnID="B5B73BD1-F268-891F-ADE8-9DECACE8B5F6"/>
+<colUsage columnID="7357F87B-D23B-AC86-1E07-384048D02BA8"/>
+<colUsage columnID="7BDF3511-85C2-1883-2BDF-D66D7A57E73E"/>
+<colUsage columnID="02C4F74D-C890-6B53-8A68-08F4B84AE785"/>
+<colUsage columnID="92782011-5617-E0E0-40C7-756397F6A0A8"/>
+</indexColumnUsage>
+</ind_PK_UK>
 </indexes>
 </Table>

@@ -170,6 +170,21 @@
 <colUsage columnID="6B21767D-6F11-7270-151C-70F043EEADE4"/>
 </indexColumnUsage>
 </ind_PK_UK>
+<ind_PK_UK id="CCE75B80-96E9-8DAA-B29B-469A503D8C1C" name="ImieNazwiskoAdres">
+<createdBy>michalpiekarski</createdBy>
+<createdTime>2014-06-13 21:09:13 UTC</createdTime>
+<ownerDesignName>mydb</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A358A826-551E-9A47-FCCB-52B960F56AC0"/>
+<colUsage columnID="F9608CE8-71CE-1A49-1EEB-C2F854527F18"/>
+<colUsage columnID="36B09791-3BB2-B6E5-49F4-B07CACE12ADC"/>
+<colUsage columnID="039CAE2A-56AA-10D8-EC3C-4F914F340967"/>
+<colUsage columnID="9BAFD3B3-9137-D551-4102-ED8988153CBF"/>
+<colUsage columnID="1B63DFBB-6695-8630-FB37-94C0FB444C16"/>
+</indexColumnUsage>
+</ind_PK_UK>
 <ind_PK_UK id="13B16E47-630C-8DDB-71AB-EBAD42A8D02F" name="OsrodekPracownika">
 <createdBy>michalpiekarski</createdBy>
 <createdTime>2014-06-07 20:15:57 UTC</createdTime>

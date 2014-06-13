@@ -83,6 +83,18 @@
 <colUsage columnID="14CC04A8-0DE9-36F2-C40B-0B28B81D28CE"/>
 </indexColumnUsage>
 </ind_PK_UK>
+<ind_PK_UK id="4C4885CF-9918-1277-9367-1307BFE5D6C1" name="RachunekTypData">
+<createdBy>michalpiekarski</createdBy>
+<createdTime>2014-06-13 21:05:57 UTC</createdTime>
+<ownerDesignName>mydb</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A71E5CBE-F49C-E1AF-0606-85E0713A836D"/>
+<colUsage columnID="5C983101-E7B3-3AEF-2EE8-91AAC694C85C"/>
+<colUsage columnID="22842F61-25F7-7654-3D64-4126B25B6057"/>
+</indexColumnUsage>
+</ind_PK_UK>
 <ind_PK_UK id="ED4C8C39-0E94-B092-4AF7-9A17F7AB2D76" name="RachunekUslugi">
 <createdBy>michalpiekarski</createdBy>
 <createdTime>2014-06-07 20:15:57 UTC</createdTime>

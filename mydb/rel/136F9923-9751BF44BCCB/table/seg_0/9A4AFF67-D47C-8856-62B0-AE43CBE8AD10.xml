@@ -100,5 +100,17 @@
 <colUsage columnID="ED0C3F5A-E9A7-4827-A818-7F45A2987D46"/>
 </indexColumnUsage>
 </ind_PK_UK>
+<ind_PK_UK id="B2DCE1B5-D218-9F0E-DFD5-EAF73F828D81" name="Adres">
+<createdBy>michalpiekarski</createdBy>
+<createdTime>2014-06-13 21:10:05 UTC</createdTime>
+<ownerDesignName>mydb</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="770145D4-E2F1-A7CE-C4D0-913D5195EA16"/>
+<colUsage columnID="C54CBFE7-CE1D-91CE-61C0-F00FFD5A8D2B"/>
+<colUsage columnID="1FDA1354-3615-901E-927F-E211BA993DBB"/>
+</indexColumnUsage>
+</ind_PK_UK>
 </indexes>
 </Table>

@@ -81,6 +81,18 @@
 <colUsage columnID="321FC7D8-E680-BB7B-550D-A8D5762C5DFC"/>
 </indexColumnUsage>
 </ind_PK_UK>
+<ind_PK_UK id="F4383BDD-9FBF-9EED-6174-12DE72DFB61C" name="ObiektData">
+<createdBy>michalpiekarski</createdBy>
+<createdTime>2014-06-13 21:13:02 UTC</createdTime>
+<ownerDesignName>mydb</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EA6A3347-5907-8B98-4C3A-58E7D3E8884C"/>
+<colUsage columnID="6F2C9147-FBD1-FFA9-B11D-6D004F55DF4C"/>
+<colUsage columnID="DF2D36BD-9778-EC8A-E438-FAA968B9F702"/>
+</indexColumnUsage>
+</ind_PK_UK>
 <ind_PK_UK id="7BA0DF0D-6BC8-9DFF-A4B1-D1DEF9808C85" name="RachunekRezerwacji">
 <createdBy>michalpiekarski</createdBy>
 <createdTime>2014-06-07 20:15:57 UTC</createdTime>

@@ -93,6 +93,19 @@
 <colUsage columnID="922A1359-9DE7-A10C-C3E4-3C8CEE360D6F"/>
 </indexColumnUsage>
 </ind_PK_UK>
+<ind_PK_UK id="6F0F6BFD-4315-B49A-130A-444E6A069DFF" name="RachunekTypData">
+<createdBy>michalpiekarski</createdBy>
+<createdTime>2014-06-13 21:06:44 UTC</createdTime>
+<ownerDesignName>mydb</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D80CCDA3-0A97-41DE-B487-604EF48173E6"/>
+<colUsage columnID="51FBDC83-5DBB-1737-F961-1132E981AB7D"/>
+<colUsage columnID="A51EECBE-4854-4A66-6D2A-FA29C9BEA845"/>
+<colUsage columnID="F7D04EEE-3964-8280-1681-C6E72C4078C9"/>
+</indexColumnUsage>
+</ind_PK_UK>
 <ind_PK_UK id="951C4C29-637F-E4FE-8E61-71657186F25B" name="RachunekWypozyczenia">
 <createdBy>michalpiekarski</createdBy>
 <createdTime>2014-06-07 20:15:57 UTC</createdTime>
