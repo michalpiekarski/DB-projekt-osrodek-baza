@@ -19,6 +19,7 @@
 <identityColumn>true</identityColumn>
 <autoIncrementGenerateAlways>true</autoIncrementGenerateAlways>
 <autoIncrementStartWith>0</autoIncrementStartWith>
+<autoIncrementMinValue>0</autoIncrementMinValue>
 <autoIncrementCycle>false</autoIncrementCycle>
 <autoIncrementSequenceName>ZamowienieWypozyczeniaID</autoIncrementSequenceName>
 <autoIncrementTriggerName>ZamowienieWypozyczeniaID_AI</autoIncrementTriggerName>
@@ -99,7 +100,7 @@
 <colUsage columnID="922A1359-9DE7-A10C-C3E4-3C8CEE360D6F"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="6F0F6BFD-4315-B49A-130A-444E6A069DFF" name="RachunekTypData">
+<ind_PK_UK id="6F0F6BFD-4315-B49A-130A-444E6A069DFF" name="ZWypozyczenia_RachunekTypData">
 <createdBy>michalpiekarski</createdBy>
 <createdTime>2014-06-13 21:06:44 UTC</createdTime>
 <ownerDesignName>mydb</ownerDesignName>

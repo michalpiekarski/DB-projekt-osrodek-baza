@@ -19,6 +19,7 @@
 <identityColumn>true</identityColumn>
 <autoIncrementGenerateAlways>true</autoIncrementGenerateAlways>
 <autoIncrementStartWith>0</autoIncrementStartWith>
+<autoIncrementMinValue>0</autoIncrementMinValue>
 <autoIncrementCycle>false</autoIncrementCycle>
 <autoIncrementSequenceName>ZamowieniePosilkuID</autoIncrementSequenceName>
 <autoIncrementTriggerName>ZamowieniePosilkuID_AI</autoIncrementTriggerName>
@@ -89,7 +90,7 @@
 <colUsage columnID="D1669FC7-4049-E3EA-41E2-9C5831F820FD"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="0918890C-F799-E331-838A-B7B870CE1DF8" name="RachunekTypData">
+<ind_PK_UK id="0918890C-F799-E331-838A-B7B870CE1DF8" name="ZPosilku_RachunekTypData">
 <createdBy>michalpiekarski</createdBy>
 <createdTime>2014-06-13 21:05:23 UTC</createdTime>
 <ownerDesignName>mydb</ownerDesignName>

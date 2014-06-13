@@ -19,6 +19,7 @@
 <identityColumn>true</identityColumn>
 <autoIncrementGenerateAlways>true</autoIncrementGenerateAlways>
 <autoIncrementStartWith>0</autoIncrementStartWith>
+<autoIncrementMinValue>0</autoIncrementMinValue>
 <autoIncrementCycle>false</autoIncrementCycle>
 <autoIncrementSequenceName>RezerwacjaID</autoIncrementSequenceName>
 <autoIncrementTriggerName>RezerwacjaID_AI</autoIncrementTriggerName>

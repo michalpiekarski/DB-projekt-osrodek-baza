@@ -19,6 +19,7 @@
 <identityColumn>true</identityColumn>
 <autoIncrementGenerateAlways>true</autoIncrementGenerateAlways>
 <autoIncrementStartWith>0</autoIncrementStartWith>
+<autoIncrementMinValue>0</autoIncrementMinValue>
 <autoIncrementCycle>false</autoIncrementCycle>
 <autoIncrementSequenceName>RachunekID</autoIncrementSequenceName>
 <autoIncrementTriggerName>RachunekID_AI</autoIncrementTriggerName>

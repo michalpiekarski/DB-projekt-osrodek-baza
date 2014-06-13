@@ -19,6 +19,7 @@
 <identityColumn>true</identityColumn>
 <autoIncrementGenerateAlways>true</autoIncrementGenerateAlways>
 <autoIncrementStartWith>0</autoIncrementStartWith>
+<autoIncrementMinValue>0</autoIncrementMinValue>
 <autoIncrementCycle>false</autoIncrementCycle>
 <autoIncrementSequenceName>ZamowienieUslugiID</autoIncrementSequenceName>
 <autoIncrementTriggerName>ZamowienieUslugiID_AI</autoIncrementTriggerName>
@@ -89,7 +90,7 @@
 <colUsage columnID="14CC04A8-0DE9-36F2-C40B-0B28B81D28CE"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="4C4885CF-9918-1277-9367-1307BFE5D6C1" name="RachunekTypData">
+<ind_PK_UK id="4C4885CF-9918-1277-9367-1307BFE5D6C1" name="ZUslugi_RachunekTypData">
 <createdBy>michalpiekarski</createdBy>
 <createdTime>2014-06-13 21:05:57 UTC</createdTime>
 <ownerDesignName>mydb</ownerDesignName>

@@ -19,9 +19,10 @@
 <identityColumn>true</identityColumn>
 <autoIncrementGenerateAlways>true</autoIncrementGenerateAlways>
 <autoIncrementStartWith>0</autoIncrementStartWith>
+<autoIncrementMinValue>0</autoIncrementMinValue>
 <autoIncrementCycle>false</autoIncrementCycle>
-<autoIncrementSequenceName>KlientID</autoIncrementSequenceName>
-<autoIncrementTriggerName>KlientID_AI</autoIncrementTriggerName>
+<autoIncrementSequenceName>PracownikID</autoIncrementSequenceName>
+<autoIncrementTriggerName>PracownikID_AI</autoIncrementTriggerName>
 </Column>
 <Column name="imie" id="A358A826-551E-9A47-FCCB-52B960F56AC0">
 <createdBy>michalpiekarski</createdBy>
@@ -180,7 +181,7 @@
 <colUsage columnID="6B21767D-6F11-7270-151C-70F043EEADE4"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="CCE75B80-96E9-8DAA-B29B-469A503D8C1C" name="ImieNazwiskoAdres">
+<ind_PK_UK id="CCE75B80-96E9-8DAA-B29B-469A503D8C1C" name="Pracownik_ImieNazwiskoAdres">
 <createdBy>michalpiekarski</createdBy>
 <createdTime>2014-06-13 21:09:13 UTC</createdTime>
 <ownerDesignName>mydb</ownerDesignName>

@@ -19,6 +19,7 @@
 <identityColumn>true</identityColumn>
 <autoIncrementGenerateAlways>true</autoIncrementGenerateAlways>
 <autoIncrementStartWith>0</autoIncrementStartWith>
+<autoIncrementMinValue>0</autoIncrementMinValue>
 <autoIncrementCycle>false</autoIncrementCycle>
 <autoIncrementSequenceName>KlientID</autoIncrementSequenceName>
 <autoIncrementTriggerName>KlientID_AI</autoIncrementTriggerName>
@@ -134,7 +135,7 @@
 <colUsage columnID="8F7A876C-86FC-D2DD-4B13-EB4F6AB8A82E"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="EAF69EC2-F0E9-551E-6BE6-1B8995ECC8B5" name="ImieNazwiskoAdres">
+<ind_PK_UK id="EAF69EC2-F0E9-551E-6BE6-1B8995ECC8B5" name="Klient_ImieNazwiskoAdres">
 <createdBy>michalpiekarski</createdBy>
 <createdTime>2014-06-13 21:08:17 UTC</createdTime>
 <ownerDesignName>mydb</ownerDesignName>

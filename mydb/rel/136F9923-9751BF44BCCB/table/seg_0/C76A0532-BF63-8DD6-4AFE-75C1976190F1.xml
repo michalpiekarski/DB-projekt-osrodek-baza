@@ -19,6 +19,7 @@
 <identityColumn>true</identityColumn>
 <autoIncrementGenerateAlways>true</autoIncrementGenerateAlways>
 <autoIncrementStartWith>0</autoIncrementStartWith>
+<autoIncrementMinValue>0</autoIncrementMinValue>
 <autoIncrementCycle>false</autoIncrementCycle>
 <autoIncrementSequenceName>ObiektID</autoIncrementSequenceName>
 <autoIncrementTriggerName>ObiektID_AI</autoIncrementTriggerName>
@@ -93,7 +94,7 @@
 <colUsage columnID="DB99402D-1E3C-7C39-F787-129984E91D6B"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="4590F022-91D7-A9A1-0E72-E866D5CC854E" name="OsrodekBudynekNumer">
+<ind_PK_UK id="4590F022-91D7-A9A1-0E72-E866D5CC854E" name="Obiekt_OsrodekBudynekNumer">
 <createdBy>michalpiekarski</createdBy>
 <createdTime>2014-06-13 20:40:45 UTC</createdTime>
 <ownerDesignName>mydb</ownerDesignName>
