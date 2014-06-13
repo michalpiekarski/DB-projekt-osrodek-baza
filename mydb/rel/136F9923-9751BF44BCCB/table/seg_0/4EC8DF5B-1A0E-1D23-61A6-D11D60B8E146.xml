@@ -26,6 +26,11 @@
 <use>1</use>
 <logicalDatatype>LOGDT037</logicalDatatype>
 <dataTypeSize>5</dataTypeSize>
+<listOfValues>
+<valueDef value="domek" description=""/>
+<valueDef value="inny" description=""/>
+<valueDef value="pokój" description=""/>
+</listOfValues>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="ilosc_miejsc" id="E3C797BF-4AD7-856A-8F09-7F0986FC7676">
@@ -37,6 +42,8 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT018</logicalDatatype>
+<usesDefaultValue>true</usesDefaultValue>
+<defaultValue>NULL</defaultValue>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="cena" id="4CD67B6B-DA7D-92F3-EF29-F62DDDC634A3">

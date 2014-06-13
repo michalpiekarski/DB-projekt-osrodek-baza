@@ -44,10 +44,11 @@
 <createdTime>2014-06-07 20:15:57 UTC</createdTime>
 <generatorID>20E9F37D-3799-32B5-0728-42E649617450</generatorID>
 <ownerDesignName>mydb</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
+<usesDefaultValue>true</usesDefaultValue>
+<defaultValue>1</defaultValue>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="typ" id="325CC5EF-6CE3-33A5-41DC-339027479211">

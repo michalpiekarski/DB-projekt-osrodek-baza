@@ -48,6 +48,8 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
+<usesDefaultValue>true</usesDefaultValue>
+<defaultValue>NULL</defaultValue>
 <delegate>6B21767D-6F11-7270-151C-70F043EEADE4</delegate>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
@@ -65,6 +67,8 @@
 <logicalDatatype>LOGDT026</logicalDatatype>
 <dataTypePrecision>9</dataTypePrecision>
 <dataTypeScale>2</dataTypeScale>
+<usesDefaultValue>true</usesDefaultValue>
+<defaultValue>0</defaultValue>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="zaplacony" id="775127B7-4CE7-4891-80BA-FCF60EA71911">

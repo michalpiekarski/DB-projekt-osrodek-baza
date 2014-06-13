@@ -131,6 +131,8 @@
 <use>1</use>
 <logicalDatatype>LOGDT037</logicalDatatype>
 <dataTypeSize>50</dataTypeSize>
+<usesDefaultValue>true</usesDefaultValue>
+<defaultValue>NULL</defaultValue>
 <delegate>1B5F1354-6DB5-71B3-6DAB-979C353DD112</delegate>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
@@ -160,6 +162,8 @@
 <use>1</use>
 <logicalDatatype>LOGDT037</logicalDatatype>
 <dataTypeSize>50</dataTypeSize>
+<usesDefaultValue>true</usesDefaultValue>
+<defaultValue>NULL</defaultValue>
 <delegate>ED0C3F5A-E9A7-4827-A818-7F45A2987D46</delegate>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>

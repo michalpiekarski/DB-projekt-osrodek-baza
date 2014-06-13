@@ -66,6 +66,8 @@
 <use>1</use>
 <logicalDatatype>LOGDT037</logicalDatatype>
 <dataTypeSize>20</dataTypeSize>
+<usesDefaultValue>true</usesDefaultValue>
+<defaultValue>NULL</defaultValue>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="numer" id="312CD0C1-B065-340A-CBD9-25371ED45FD1">
@@ -73,7 +75,6 @@
 <createdTime>2014-06-07 20:15:57 UTC</createdTime>
 <generatorID>94CDEFED-C0A5-601A-87FE-1579C25634F5</generatorID>
 <ownerDesignName>mydb</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT037</logicalDatatype>
